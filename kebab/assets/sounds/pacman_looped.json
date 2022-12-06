@@ -1,0 +1,52 @@
+{
+  "resources": [
+    "./public/assets/sounds/pacman_looped.mp3"
+  ],
+  "spritemap": {
+    "level0": {
+      "start": 0.02,
+      "end": 0.43,
+      "loop": true
+    },
+    "level1": {
+      "start": 1.42,
+      "end": 1.76,
+      "loop": true
+    },
+    "level2": {
+      "start": 2.75,
+      "end": 3.06,
+      "loop": true
+    },
+    "level3": {
+      "start": 4.05,
+      "end": 4.33,
+      "loop": true
+    },
+    "ghost back": {
+      "start": 5.31,
+      "end": 5.59,
+      "loop": true
+    },
+    "frightened": {
+      "start": 6.58,
+      "end": 7.13,
+      "loop": true
+    },
+    "wonderful": {
+      "start": 8.1,
+      "end": 13.4,
+      "loop": false
+    },
+    "level up": {
+      "start": 14.37,
+      "end": 18.54,
+      "loop": false
+    },
+    "opening": {
+      "start": 19.5,
+      "end": 23.8,
+      "loop": false
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "resources": [
+    "./public/assets/sounds/pacman_regular.mp3"
+  ],
+  "spritemap": {
+    "ghost death": {
+      "start": 0,
+      "end": 1,
+      "loop": false
+    },
+    "pacman death": {
+      "start": 2.55,
+      "end": 4.15,
+      "loop": false
+    },
+    "eat0": {
+      "start": 5.2,
+      "end": 5.4,
+      "loop": false
+    },
+    "eat1": {
+      "start": 6.3,
+      "end": 6.5,
+      "loop": false
+    },
+    "eat2": {
+      "start": 7.3,
+      "end": 7.8,
+      "loop": false
+    },
+    "ghost ate": {
+      "start": 8.5,
+      "end": 9.5,
+      "loop": false
+    },
+    "warning": {
+      "start": 10,
+      "end": 12.5,
+      "loop": false
+    },
+    "ghost ate2": {
+      "start": 13.2,
+      "end": 13.8,
+      "loop": false
+    }
+  }
+}
