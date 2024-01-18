@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <style>
+    #grid-container {
+      display: grid;
+      grid-template-columns: repeat(29, 32px);
+      /* Adjust based on the size of each cell */
+      grid-template-rows: repeat(29, 32px);
+      gap: 2px;
+      /* This creates a 1px space between grid items */
+      justify-content: center;
+      /* Center the grid horizontally */
+      align-items: center;
+      /* Center the grid vertically */
+      width: fit-content;
+      /* Adjust the width to fit the content */
+    }
+
+    #grid-container div {
+      width: 32px;
+      /* Width of each cell */
+      height: 32px;
+      /* Height of each cell */
+      position: relative;
+      box-sizing: border-box;
+      /* Include padding and border in the element's size */
+    }
+
+    #grid-container div.selected {
+      box-shadow: 0 0 0 5px red inset;
+      /* Create an inner shadow that looks like a border */
+    }
+
+    #grid-container p {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 12px;
+      font-weight: bold;
+      color: white;
+      text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+      letter-spacing: 1px;
+    }
+
+    .inactive {
+      opacity: 0.4;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="grid-container">
+    <!-- Grid will be generated here -->
+  </div>
+
+  <script>
+    function createGrid(colorData) {
+      const container = document.getElementById('grid-container');
+      container.innerHTML = ''; // Clear existing grid
+
+      for (let row = 0; row < 29; row++) {
+        for (let col = 0; col < 29; col++) {
+          const div = document.createElement('div');
+
+          const pixel = colorData[row][col]
+          div.style.backgroundColor = pixel.color;
+
+          const p = document.createElement('p');
+          p.textContent = pixel?.number;
+          div.appendChild(p);
+          container.appendChild(div);
+
+          if (row === 0 && col === 0) {
+            div.classList.add('selected');
+          }
+        }
+      }
+    }
+    // Function to move the selected class
+    function moveSelected(direction) {
+      const grid = document.getElementById('grid-container');
+      let current = grid.querySelector('.selected');
+      let rowIndex = Math.floor(Array.from(grid.children).indexOf(current) / 29);
+      let colIndex = Array.from(grid.children).indexOf(current) % 29;
+
+      current.classList.remove('selected');
+
+      if (direction === 'ArrowUp') {
+        if (rowIndex > 0) {
+          rowIndex--;
+        } else {
+          rowIndex = 28;
+        }
+      } else if (direction === 'ArrowDown') {
+        if (rowIndex < 28) {
+          rowIndex++;
+        } else {
+          rowIndex = 0;
+        }
+      } else if (direction === 'ArrowLeft') {
+        if (colIndex > 0) {
+          colIndex--;
+        } else {
+          colIndex = 28;
+          rowIndex = rowIndex > 0 ? rowIndex - 1 : 28;
+        }
+      } else if (direction === 'ArrowRight') {
+        if (colIndex < 28) {
+          colIndex++;
+        } else {
+          colIndex = 0;
+          rowIndex = rowIndex < 28 ? rowIndex + 1 : 0;
+        }
+      }
+
+      const newSelected = grid.children[rowIndex * 29 + colIndex];
+      newSelected.classList.add('selected');
+
+      // Get the innerHTML of the <p> element and set the document's title
+      const pContent = newSelected.querySelector('p').innerHTML;
+      document.title = pContent;
+    }
+
+    // Function to read JSON file
+    async function readJSON(filename) {
+    }
+
+
+    let selectedPValue = '';
+    function handleSpacebarPress() {
+      const grid = document.getElementById('grid-container');
+      const selectedDiv = grid.querySelector('.selected');
+      const newSelectedPValue = selectedDiv.querySelector('p').innerHTML;
+      const selectedColor = selectedDiv.style.backgroundColor;
+
+      // First make all divs active
+      Array.from(grid.children).forEach(div => div.classList.remove('inactive'));
+
+      if (newSelectedPValue !== selectedPValue) {
+        // Add 'inactive' class to divs not matching the color
+        Array.from(grid.children).forEach(div => {
+          if (div.style.backgroundColor !== selectedColor) {
+            div.classList.add('inactive');
+          }
+        });
+        selectedPValue = newSelectedPValue;
+      } else {
+        selectedPValue = ''
+      }
+    }
+
+
+    // Event listener for arrow keys
+    document.addEventListener('keydown', function (event) {
+      if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(event.key)) {
+        moveSelected(event.key);
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', async function () {
+      let queryString = window.location.search;
+      let urlParams = new URLSearchParams(queryString);
+      let filename = urlParams.get('load');
+
+      // Read the JSON data
+      // const jsonData = await readJSON(filename);
+      
+      const imageData = await (await fetch(filename)).json();
+
+      // Create the grid with both sets of data
+
+      createGrid(imageData);
+    });
+
+    document.addEventListener('keydown', function (event) {
+      if (event.key === ' ') {
+        handleSpacebarPress();
+      }
+    });
+
+  </script>
+</body>
+
+</html>
