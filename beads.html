@@ -167,17 +167,16 @@
     });
 
     document.addEventListener('DOMContentLoaded', async function () {
-      let queryString = window.location.search;
-      let urlParams = new URLSearchParams(queryString);
-      let filename = urlParams.get('load');
-
-      // Read the JSON data
-      // const jsonData = await readJSON(filename);
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      const local = urlParams.get('u');
+      let url = local;
+      if (!local) {
+        const load = urlParams.get('t');
+        url = `https://tinyurl.com/${load.replaceAll("_", "ZZ")}`;
+      }
       
-      const imageData = await (await fetch(filename)).json();
-
-      // Create the grid with both sets of data
-
+      const imageData = await (await fetch(url)).json();
       createGrid(imageData);
     });
 
