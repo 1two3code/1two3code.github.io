@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+
+}
+main {
+   padding: 1rem; /* Add some padding to the main container */
+   box-sizing: border-box; /* Include padding and border in the element's total width and height */
+   overflow: auto; /* Enable scrolling if content overflows */
+   display: flex;
+   width: 100%;
+   min-height: 100vh;
+   align-items: center;
+   flex-direction: column;
+   position: relative;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1rem;
+}
+#reader {
+    width: 80vw;
+}
+#result {
+    /* text-align: center; */
+    font-size: 1.5rem;
+}
+#kofi-link {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 1rem;
+    z-index: 999999999;
+}
+
+#show-table {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    /* padding: 0.5rem; */
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 999999999;
+}
+
+#fig-table-container {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+#fig-table {
+  position: absolute;
+  display: none;
+  border-collapse: collapse;
+  /* margin-top: 20px; */
+  top: 0;
+  background-color: #ffffff;
+  z-index: 99999999;
+}
+
+#fig-table th {
+    background-color: #31b6c5;
+    font-size: 0.7rem;
+}
+
+#fig-table td{
+  background-color: #ffffff;
+}
+
+#fig-table td, #fig-table th {
+  border: 1px solid #000000;
+  padding: 2px;
+}
+
+#gh-link {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 1rem;
+    z-index: 999999999;
+}

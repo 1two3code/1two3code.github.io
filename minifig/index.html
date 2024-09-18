@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lego MiniFig Decoder</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.3.4/html5-qrcode.min.js"
+        integrity="sha512-k/KAe4Yff9EUdYI5/IAHlwUswqeipP+Cp5qnrsUjTPCgl51La2/JhyyjNciztD7mWNKLSXci48m7cctATKfLlQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="My Web App">
+    <link rel="apple-touch-icon" href="/android-chrome-192x192.png">
+    <link rel="manifest" href="/manifest.json">
+</head>
+
+<body>
+    <main>
+        <h1>Series 25 Lego Mini-Figure Decoder</h1>
+        <p>Choose your region and scan the QR code on the Mini-Fig Packet, the result will be displayed below.Use
+            Ultra-Wide Camera on IPhone for best results.
+        </p>
+        <div id="reader"></div>
+        <div id="result2"></div>
+        <div id="result"></div>
+    </main>
+    <button id="show-table">i</button>
+    <div id="fig-table-container">
+        <table id="fig-table"></table>
+    </div>
+    <div id="gh-link">
+        <a href='https://github.com/mrdiamonddirt/lego-minifig-decoder' target='_blank'><img height='36'
+                style='border:0px;height:36px;'
+                src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' border='0'
+                alt='GitHub' /></a>
+    </div>
+    <script src="app.js">
+    </script>
+</body>
+
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js')
+                .then((registration) => {
+                    console.log('Service Worker registered with scope:', registration.scope);
+                }, (err) => {
+                    console.log('Service Worker registration failed:', err);
+                });
+        });
+    }
+</script>
+
+</html>
