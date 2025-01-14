@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <style>
+    body {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 1px;
+    }
+
+    #grid-container {
+      display: grid;
+      grid-template-columns: repeat(29, 32px);
+      /* Adjust based on the size of each cell */
+      grid-template-rows: repeat(29, 32px);
+      gap: 2px;
+      /* This creates a 1px space between grid items */
+      justify-content: center;
+      /* Center the grid horizontally */
+      align-items: center;
+      /* Center the grid vertically */
+      width: fit-content;
+      /* Adjust the width to fit the content */
+    }
+
+    #grid-container div {
+      width: 32px;
+      /* Width of each cell */
+      height: 32px;
+      /* Height of each cell */
+      position: relative;
+      box-sizing: border-box;
+      /* Include padding and border in the element's size */
+    }
+
+    #grid-container div.selected {
+      box-shadow: 0 0 0 5px red inset;
+      /* Create an inner shadow that looks like a border */
+    }
+
+    #grid-container p {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 12px;
+      font-weight: bold;
+      color: white;
+      text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+      letter-spacing: 1px;
+    }
+
+    .inactive {
+      opacity: 0.4;
+    }
+
+    .active {
+      /* margin: 4px; */
+      /* outline: 4px green */
+    }
+
+    .palette-item {
+      display: inline-block;
+      vertical-align: top;
+      margin: 5px;
+    }
+
+    .palette-item p {
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 0 0 10px;
+      /* Add some space between the div and the text */
+      font-size: 12px;
+      font-weight: bold;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="grid-container">
+    <!-- Grid will be generated here -->
+  </div>
+  <div id="palette-container"></div>
+
+  <script>
+    function createPalette(colorData) {
+      const container = document.getElementById('palette-container');
+
+      const allColors = colorData.flat()
+
+      const allUniqueColors = [...new Set(allColors.map(pixel => pixel.color))];
+      const allUniquePixels = allUniqueColors.map(color => allColors.find(pixel => pixel.color === color));
+
+      allUniquePixels
+        .sort((a, b) => a.number - b.number)
+        .forEach(({ name, number, color }) => {
+          const colorContainer = document.createElement('div');
+          colorContainer.style.display = 'flex'
+          const colorDiv = document.createElement('div');
+          colorDiv.style.backgroundColor = color;
+          colorDiv.style.width = '32px';
+          colorDiv.style.height = '32px';
+          colorDiv.style.border = '1px solid black';
+          colorDiv.className = 'palette-item';
+          const colorDivP = document.createElement('p');
+          colorDiv.append(colorDivP);
+          colorDivP.textContent = number;
+
+          const p = document.createElement('p');
+          p.textContent = `${number} ${name}`;
+
+          colorContainer.appendChild(colorDiv);
+          colorContainer.appendChild(p);
+          container.appendChild(colorContainer);
+        });
+    }
+
+    function createGrid(colorData) {
+      const container = document.getElementById('grid-container');
+      container.innerHTML = ''; // Clear existing grid
+
+      for (let row = 0; row < 29; row++) {
+        for (let col = 0; col < 29; col++) {
+          const div = document.createElement('div');
+
+          const pixel = colorData[row][col];
+          div.style.backgroundColor = pixel.color;
+
+          const p = document.createElement('p');
+          p.style.display = 'none';
+          p.textContent = pixel?.number;
+          div.appendChild(p);
+          container.appendChild(div);
+
+          if (row === 0 && col === 0) {
+            div.classList.add('selected');
+          }
+        }
+      }
+    }
+
+    // Function to move the selected class
+    function moveSelected(direction) {
+      const grid = document.getElementById('grid-container');
+      let current = grid.querySelector('.selected');
+      let rowIndex = Math.floor(Array.from(grid.children).indexOf(current) / 29);
+      let colIndex = Array.from(grid.children).indexOf(current) % 29;
+
+      current.classList.remove('selected');
+
+      if (direction === 'ArrowUp') {
+        if (rowIndex > 0) {
+          rowIndex--;
+        } else {
+          rowIndex = 28;
+        }
+      } else if (direction === 'ArrowDown') {
+        if (rowIndex < 28) {
+          rowIndex++;
+        } else {
+          rowIndex = 0;
+        }
+      } else if (direction === 'ArrowLeft') {
+        if (colIndex > 0) {
+          colIndex--;
+        } else {
+          colIndex = 28;
+          rowIndex = rowIndex > 0 ? rowIndex - 1 : 28;
+        }
+      } else if (direction === 'ArrowRight') {
+        if (colIndex < 28) {
+          colIndex++;
+        } else {
+          colIndex = 0;
+          rowIndex = rowIndex < 28 ? rowIndex + 1 : 0;
+        }
+      }
+
+      const newSelected = grid.children[rowIndex * 29 + colIndex];
+      newSelected.classList.add('selected');
+
+      // Get the innerHTML of the <p> element and set the document's title
+      const pContent = newSelected.querySelector('p').innerHTML;
+      document.title = pContent;
+    }
+
+    // Function to read JSON file
+    async function readJSON(filename) { }
+
+    let selectedPValue = '';
+    function handleSpacebarPress() {
+      const grid = document.getElementById('grid-container');
+      const selectedDiv = grid.querySelector('.selected');
+      const newSelectedPValue = selectedDiv.querySelector('p').innerHTML;
+      const selectedColor = selectedDiv.style.backgroundColor;
+
+      // First make all divs active
+      Array.from(grid.children).forEach(div => div.classList.remove('inactive', 'active'));
+
+      if (newSelectedPValue !== selectedPValue) {
+        // Add 'inactive' class to divs not matching the color
+        Array.from(grid.children).forEach(div => {
+          if (div.style.backgroundColor !== selectedColor) {
+            div.classList.add('inactive');
+          } else {
+            div.classList.add('active');
+
+          }
+        });
+        selectedPValue = newSelectedPValue;
+      } else {
+
+        selectedPValue = '';
+      }
+    }
+
+    // Event listener for arrow keys
+    document.addEventListener('keydown', function (event) {
+      if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(event.key)) {
+        moveSelected(event.key);
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', async function () {
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      const local = urlParams.get('u');
+      let url = local;
+      if (!local) {
+        const load = urlParams.get('t');
+        url = `https://tinyurl.com/${load.replaceAll("_", "ZZ")}`;
+      }
+
+      const imageData = await (await fetch(url)).json();
+      createGrid(imageData);
+      createPalette(imageData);
+    });
+
+    document.addEventListener('keydown', function (event) {
+      if (event.key === ' ') {
+        handleSpacebarPress();
+      }
+    });
+  </script>
+</body>
+
+</html>
