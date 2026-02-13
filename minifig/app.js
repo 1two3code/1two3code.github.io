@@ -13,6 +13,39 @@ const figtable = [
   ["The Lady of Pain", 6502844, 6506745],
   ["Szass Tam", 6502847, 6506748],
   ["Tasha the Witch Queen", 6502846, 6506747],
+
+  // Spider man
+  ["Miles Morales / Spider-Man", 6568959, 6568947, 6564838],
+  ["Miguel O'Hara / Spider-Man 2099", 6568960, 6568948, 6564839],
+  ["Charlotte Webber / Sun-Spider", 6568961, 6568949, 6564840],
+  ["Gwen Stacy / Spider-Gwen", 6568962, 6568950, 6564841],
+  ["Miles G. Morales / Prowler", 6568963, 6568951, 6564842],
+  ["Hobie Brown / Spider-Punk", 6568964, 6568952, 6564843],
+  ["Pavitr Prabhakar / Spider-Man India", 6568965, 6568953, 6564844],
+  [
+    "Peter B. Parker / Spider-Man & May 'Mayday' Parker",
+    6568966,
+    6568954,
+    6564845,
+  ],
+  ["Margo Kess / Spider-Byte", 6568967, 6568955, 6564846],
+  ["Petra Parker / Cyborg Spider-Woman", 6568968, 6568956, 6564847],
+  ["Patrick O'Hara / Web-Slinger", 6568969, 6568957, 6564848],
+  ["Peter Parker / Werewolf Spider-Man", 6568970, 6568958, 6564849],
+
+  // Series 28 Animals
+  ["Parrot Costume", 6584374, 6576496],
+  ["Lion Costume", 6584375, 6576497],
+  ["Crocodile Costume", 6584376, 6576498],
+  ["Frog Costume", 6584377, 6576499],
+  ["Dalmation Costume", 6584378, 6576500],
+  ["Goldfish Costume", 6584379, 6576501],
+  ["Cute Bunny Costume", 6584380, 6576502],
+  ["Peacock Costume", 6584381, 6576503],
+  ["Fluffy Cat Costume", 6584382, 6576504],
+  ["Koala Costume", 6584383, 6576505],
+  ["Dolphin Costume", 6584384, 6576506],
+  ["Monkey Costume", 6584385, 6576507],
 ];
 
 document.getElementById("fig-table").innerHTML += `
@@ -84,7 +117,7 @@ function success(result) {
   // find code in any of the arrays in figtable array
 
   const figIndex = figtable.findIndex((fig) =>
-    fig.includes(parseInt(code, 10))
+    fig.includes(parseInt(code, 10)),
   );
   const fig = figtable[figIndex];
   const output = `${code}\t${fig[0]}`;
