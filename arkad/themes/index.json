@@ -15,6 +15,9 @@
 		"brick-blitz": [
 			"sunset"
 		],
+		"dojo-duel": [
+			"sunset"
+		],
 		"fizzworks": [
 			"sunset"
 		],
@@ -84,6 +87,20 @@
 				},
 				"cover": "./games/brick-blitz/skins/sunset/art/cover.png",
 				"hero": "./games/brick-blitz/skins/sunset/art/hero.png"
+			}
+		},
+		"dojo-duel": {
+			"sunset": {
+				"title": {
+					"sv": "SOLNEDGÅNGSDUELL",
+					"en": "SUNSET DUEL"
+				},
+				"tagline": {
+					"sv": "Två elever. Ett tak. Solen går ner för en av dem.",
+					"en": "Two students. One rooftop. The sun goes down on one of them."
+				},
+				"cover": "./games/dojo-duel/skins/sunset/art/cover.png",
+				"hero": "./games/dojo-duel/skins/sunset/art/hero.png"
 			}
 		},
 		"fizzworks": {

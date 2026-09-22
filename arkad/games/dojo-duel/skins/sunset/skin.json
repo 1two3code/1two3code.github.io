@@ -1,0 +1,115 @@
+{
+  "name": "Sunset",
+  "palette": {
+    "bg": "#1b0f24",
+    "title": "#ffe7c2",
+    "accent": "#ff8a3d",
+    "skyTop": "#14062b",
+    "skyHigh": "#3a0f4f",
+    "skyMid": "#7b2cbf",
+    "skyLow": "#ef476f",
+    "skyHorizon": "#ffd166",
+    "sun": "#fff1a8",
+    "sunGlow": "#ff7aa2",
+    "cloud": "#4b1a5e",
+    "far": "#24103a",
+    "farLight": "#ff9ecf",
+    "mid": "#1a0b2c",
+    "water": "#2d1245",
+    "waterLight": "#ff7aa2",
+    "roofTile": "#2b1740",
+    "roofDark": "#150a22",
+    "roofEdge": "#7b2cbf",
+    "wood": "#3b1f3f",
+    "floor": "#402452",
+    "floorSeam": "#2a1638",
+    "floorShine": "#c77dff",
+    "floorMark": "#ffd166",
+    "lanternPaper": "#ef476f",
+    "lanternGlow": "#ffe29a",
+    "health1": "#06d6a0",
+    "health2": "#06d6a0",
+    "hudBack": "#2d1245",
+    "pip": "#ffd166",
+    "comboText": "#ffd166",
+    "announceEdge": "#7b2cbf",
+    "sparkH": "#ef476f",
+    "juni.top": "#ef476f",
+    "juni.accent": "#7b2cbf",
+    "juni.trim": "#ffd166",
+    "magna.top": "#3a86ff",
+    "magna.accent": "#5a2e1a",
+    "magna.glow": "#ffd166",
+    "pim.top": "#ffd166",
+    "pim.accent": "#ef476f",
+    "pim.trim": "#3a0f4f",
+    "pim.glow": "#ff7aa2",
+    "tariq.top": "#06d6a0",
+    "tariq.accent": "#7b2cbf",
+    "tariq.trim": "#ffe29a",
+    "wren.top": "#3a0f4f",
+    "wren.accent": "#ef476f",
+    "wren.trim": "#ffd166",
+    "pier.skyTop": "#14062b",
+    "pier.skyMid": "#4b1a5e",
+    "pier.skyLow": "#ef476f",
+    "pier.moon": "#fff1a8",
+    "pier.far": "#24103a",
+    "pier.farLight": "#ff9ecf",
+    "pier.water": "#2d1245",
+    "pier.waterLight": "#ff7aa2",
+    "pier.boat": "#1a0b2c",
+    "pier.boatLight": "#ffd166",
+    "pier.beam": "#ffe29a",
+    "pier.plank": "#402452",
+    "pier.plankDark": "#2a1638",
+    "pier.plankShine": "#c77dff",
+    "pier.post": "#150a22",
+    "pier.rope": "#ffd166",
+    "market.skyTop": "#14062b",
+    "market.skyLow": "#7b2cbf",
+    "market.far": "#24103a",
+    "market.farLight": "#ffd166",
+    "market.stall": "#2b1740",
+    "market.awning1": "#ef476f",
+    "market.awning2": "#ffd166",
+    "market.awning3": "#06d6a0",
+    "market.banner": "#7b2cbf",
+    "market.bannerText": "#ffe29a",
+    "market.bulb": "#fff1a8",
+    "market.stone": "#402452",
+    "market.stoneDark": "#2a1638",
+    "market.stoneShine": "#c77dff"
+  },
+  "strings": {
+    "en": {
+      "title": "SUNSET DUEL",
+      "tagline": "Two students. One rooftop. The sun goes down on one of them."
+    },
+    "sv": {
+      "title": "SOLNEDGÅNGSDUELL",
+      "tagline": "Två elever. Ett tak. Solen går ner för en av dem."
+    }
+  },
+  "game": {
+    "costumes": {
+      "juni": {
+        "cape": 90,
+        "sash": 56
+      },
+      "magna": {
+        "apron": 60,
+        "hair": "knot"
+      },
+      "pim": {
+        "bag": 36
+      },
+      "tariq": {
+        "sash": 44
+      },
+      "wren": {
+        "robe": 80
+      }
+    }
+  }
+}

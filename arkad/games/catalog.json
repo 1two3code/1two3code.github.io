@@ -577,8 +577,8 @@
     "en": "Best of three. No mercy."
    },
    "description": {
-    "sv": "Ett fightingspel en mot en med sex knappar och åtta elever från samma dojo.",
-    "en": "A one-on-one fighter with six-button controls and a roster of eight students of the same dojo."
+    "sv": "Ett fightingspel en mot en runt Kestrel Hall. Juni Ash kastar glödlyktor, Magna Holm brottar med smedens tyngd, budet Pim Rook laddar och rusar, färjekarlen Tariq Sel når längst med sin stake och fångar slag, och till sist väntar den gamla mästaren Wren. Sex knappar, kvartscirklar, laddrörelser och 360-grepp, rundor bäst av tre på tre platser. Spela mot datorn, mot en vän eller i träningsläget med träffytor och bildrutefördel.",
+    "en": "A one-on-one fighter around Kestrel Hall. Juni Ash throws ember lanterns, Magna Holm grapples with a smith's weight, the courier Pim Rook charges and rushes, the ferryman Tariq Sel out-reaches everyone with his pole and catches strikes, and old master Wren waits at the end. Six buttons, quarter circles, charge motions and 360 grabs, best-of-three rounds on three stages. Fight the CPU, a friend, or train with hitboxes and frame advantage on screen."
    },
    "developer": "Arkad Games",
    "year": 2026,
@@ -639,16 +639,159 @@
     ]
    },
    "art": {
-    "primary": "#ff4d4d",
-    "secondary": "#2a0b0b"
+    "primary": "#ff8a3d",
+    "secondary": "#1b1033",
+    "cover": "./games/dojo-duel/art/cover.png",
+    "hero": "./games/dojo-duel/art/hero.png"
    },
    "launch": {
-    "kind": "exec",
-    "command": "/opt/arcade/games/dojo-duel/dojo-duel",
-    "args": []
+    "kind": "web",
+    "url": "./games/dojo-duel/index.html"
    },
    "addedAt": "2026-05-20",
-   "hidden": true
+   "hidden": false,
+   "demo": true,
+   "settings": [
+    {
+     "key": "difficulty",
+     "type": "choice",
+     "label": {
+      "sv": "Datorns nivå",
+      "en": "CPU level"
+     },
+     "values": [
+      {
+       "value": "easy",
+       "label": {
+        "sv": "Lätt",
+        "en": "Easy"
+       }
+      },
+      {
+       "value": "normal",
+       "label": {
+        "sv": "Normal",
+        "en": "Normal"
+       }
+      },
+      {
+       "value": "hard",
+       "label": {
+        "sv": "Svår",
+        "en": "Hard"
+       }
+      },
+      {
+       "value": "expert",
+       "label": {
+        "sv": "Expert",
+        "en": "Expert"
+       }
+      }
+     ],
+     "default": "normal"
+    },
+    {
+     "key": "rounds",
+     "type": "choice",
+     "label": {
+      "sv": "Ronder",
+      "en": "Rounds"
+     },
+     "description": {
+      "sv": "Matchen avgörs i bäst av",
+      "en": "Matches are best of"
+     },
+     "values": [
+      {
+       "value": 1,
+       "label": {
+        "sv": "Bäst av 1",
+        "en": "Best of 1"
+       }
+      },
+      {
+       "value": 3,
+       "label": {
+        "sv": "Bäst av 3",
+        "en": "Best of 3"
+       }
+      },
+      {
+       "value": 5,
+       "label": {
+        "sv": "Bäst av 5",
+        "en": "Best of 5"
+       }
+      }
+     ],
+     "default": 3
+    },
+    {
+     "key": "timer",
+     "type": "choice",
+     "label": {
+      "sv": "Rondtid",
+      "en": "Round timer"
+     },
+     "values": [
+      {
+       "value": 60,
+       "label": {
+        "sv": "60",
+        "en": "60"
+       }
+      },
+      {
+       "value": 99,
+       "label": {
+        "sv": "99",
+        "en": "99"
+       }
+      },
+      {
+       "value": "off",
+       "label": {
+        "sv": "Av",
+        "en": "Off"
+       }
+      }
+     ],
+     "default": 99
+    },
+    {
+     "key": "damage",
+     "type": "choice",
+     "label": {
+      "sv": "Skada",
+      "en": "Damage"
+     },
+     "values": [
+      {
+       "value": 0.75,
+       "label": {
+        "sv": "Låg (×0,75)",
+        "en": "Low (×0.75)"
+       }
+      },
+      {
+       "value": 1,
+       "label": {
+        "sv": "Normal (×1)",
+        "en": "Normal (×1)"
+       }
+      },
+      {
+       "value": 1.25,
+       "label": {
+        "sv": "Hög (×1,25)",
+        "en": "High (×1.25)"
+       }
+      }
+     ],
+     "default": 1
+    }
+   ]
   },
   {
    "id": "moon-miner",
