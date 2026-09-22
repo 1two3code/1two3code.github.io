@@ -1,0 +1,46 @@
+{
+  "name": "Sunset",
+  "palette": {
+    "bg": "#1a0b1e",
+    "bg-glow-a": "#ff6a3d",
+    "bg-glow-b": "#b5179e",
+    "title": "#ffe9cf",
+    "text": "#f3c7a8",
+    "dim": "#6b4150",
+    "accent": "#ffb347",
+    "panel": "#2a1226",
+    "frame": "#ff7b54",
+    "danger": "#ff2d55",
+    "piece-streamer": "#f72585",
+    "piece-hook": "#fcbf49",
+    "piece-boot": "#4cc9f0",
+    "piece-cake": "#b5179e",
+    "piece-swirl": "#ffe0b5",
+    "piece-hat": "#80ed99",
+    "piece-zap": "#7209b7",
+    "garbage": "#6d4a5a",
+    "party-base": "#ff9e00",
+    "party-a": "#ffffff",
+    "party-b": "#f72585",
+    "party-c": "#4cc9f0",
+    "p1": "#ffb347",
+    "p2": "#f72585"
+  },
+  "strings": {
+    "en": {
+      "title": "SUNSET STACK",
+      "tagline": "Stack till the sun goes down. Then party.",
+      "party": "SUNSET PARTY!",
+      "clear4": "GOLDEN HOUR!"
+    },
+    "sv": {
+      "title": "KVÄLLSSTAPELN",
+      "tagline": "Stapla tills solen går ner. Sen blir det fest.",
+      "party": "SOLNEDGÅNGSFEST!",
+      "clear4": "GYLLENE TIMMEN!"
+    }
+  },
+  "textures": {
+    "well-bg": "well.png"
+  }
+}

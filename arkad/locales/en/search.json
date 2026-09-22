@@ -1,0 +1,24 @@
+{
+	"placeholder_one": "Search {{count}} game",
+	"placeholder_other": "Search {{count}} games",
+	"results_one": "{{count}} result",
+	"results_other": "{{count}} results",
+	"genres": "Browse by genre",
+	"popular": "Popular",
+	"keyboard": {
+		"space": "Space",
+		"backspace": "Delete"
+	},
+	"empty": {
+		"title": "No results for “{{query}}”",
+		"body": "Try fewer letters, or browse by genre."
+	},
+	"hint": {
+		"type": "Type",
+		"erase": "Delete",
+		"space": "Space",
+		"open": "Open",
+		"play": "Play",
+		"browse": "Browse"
+	}
+}

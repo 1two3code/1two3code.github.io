@@ -1,0 +1,18 @@
+{
+	"rows": {
+		"recent": "Fortsätt spela",
+		"favourites": "Favoriter",
+		"new": "Nytt i maskinen",
+		"popular": "Mest spelade",
+		"versus": "Två spelare mot varandra",
+		"all": "Alla spel"
+	},
+	"play": "Spela",
+	"details": "Mer info",
+	"favourite": "Favorit",
+	"hint": {
+		"open": "Öppna",
+		"play": "Spela",
+		"favourite": "Favorit"
+	}
+}

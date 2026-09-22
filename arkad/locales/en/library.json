@@ -1,0 +1,32 @@
+{
+	"count_one": "{{count}} game",
+	"count_other": "{{count}} games",
+	"chip": {
+		"all": "All games",
+		"favourites": "Favourites",
+		"versus": "2 players"
+	},
+	"sort": {
+		"label": "Sort",
+		"az": "A–Z",
+		"recent": "Recently played",
+		"popular": "Most played",
+		"year": "Newest first"
+	},
+	"empty": {
+		"title": "Nothing here",
+		"body": "No game matches this filter right now. Pick another one above.",
+		"favouritesTitle": "No favourites yet",
+		"favouritesBefore": "Press",
+		"favouritesAfter": "on a game you like and it will show up here."
+	},
+	"hint": {
+		"open": "Open",
+		"play": "Play",
+		"favourite": "Favourite",
+		"unfavourite": "Unfavourite",
+		"page": "Page",
+		"sort": "Sort",
+		"filter": "Select"
+	}
+}

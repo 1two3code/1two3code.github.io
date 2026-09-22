@@ -1,0 +1,13 @@
+{
+	"pressStart": "Press start",
+	"insertCoin": "Insert coin",
+	"topScore": "Top score",
+	"scoresKicker": "Best in every game",
+	"scoresTitle": "High scores",
+	"rank_ordinal_one": "{{count}}st",
+	"rank_ordinal_two": "{{count}}nd",
+	"rank_ordinal_few": "{{count}}rd",
+	"rank_ordinal_other": "{{count}}th",
+	"dimmed": "Press any button",
+	"demo": "Demo"
+}

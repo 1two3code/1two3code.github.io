@@ -1,0 +1,20 @@
+{
+	"kickerEmpty": "High scores",
+	"kicker_one": "High scores · {{count}} entry",
+	"kicker_other": "High scores · {{count}} entries",
+	"newest": "Newest",
+	"empty": "No records yet — be the first",
+	"emptyBody": "Play {{game}} and enter your initials to get your name up here.",
+	"hall": {
+		"tile": "Hall of fame",
+		"kicker": "Best in every game",
+		"title": "Hall of fame",
+		"empty": "No records yet — be the first",
+		"emptyBody": "Every game's number one shows up here as soon as someone sets a record."
+	},
+	"hint": {
+		"pick": "Choose game",
+		"open": "Open game",
+		"play": "Play"
+	}
+}

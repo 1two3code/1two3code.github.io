@@ -1,0 +1,53 @@
+{
+  "name": "Sunset",
+  "palette": {
+    "bg": "#1a0b24",
+    "title": "#ffe9c7",
+    "text": "#e7b9c9",
+    "accent": "#ff9e4a",
+    "hud": "#ffe9c7",
+    "dim": "#12061a",
+    "ship": "#ffd166",
+    "ship2": "#6ee7d8",
+    "thrust": "#ff5e3a",
+    "rock": "#ff8fb1",
+    "rockFill": "#240f30",
+    "saucer": "#7cf29a",
+    "enemyBullet": "#b8ffc9",
+    "bullet": "#fff1c1",
+    "spark": "#ffe4b5",
+    "seed": "#ffb347",
+    "leaf": "#9be15d",
+    "petal0": "#ff5f7e",
+    "petal1": "#c77dff",
+    "petal2": "#ffd166",
+    "flowerCenter": "#fff4d6",
+    "planetRim": "#ffb347",
+    "star": "#ffc8dd"
+  },
+  "strings": {
+    "en": {
+      "title": "SUNSET ORCHARD",
+      "tagline": "Crack the comets. Catch the pips. Plant a sunset.",
+      "seedHint": "CATCH THE PIPS · PLANT YOUR ORCHARD",
+      "chain": "PIPS ×{count}",
+      "gardenTitle": "YOUR ORCHARD",
+      "gardenCount": "{count} BLOSSOMS  ·  +{fresh} THIS WAVE",
+      "gardenCountOne": "1 BLOSSOM  ·  +{fresh} THIS WAVE",
+      "gardenEmpty": "NO PIPS YET · CATCH THEM NEXT WAVE"
+    },
+    "sv": {
+      "title": "SOLODLINGEN",
+      "tagline": "Spräck kometerna. Fånga kärnorna. Plantera en solnedgång.",
+      "seedHint": "FÅNGA KÄRNORNA · PLANTERA DIN FRUKTTRÄDGÅRD",
+      "chain": "KÄRNOR ×{count}",
+      "gardenTitle": "DIN FRUKTTRÄDGÅRD",
+      "gardenCount": "{count} BLOMMOR  ·  +{fresh} DENNA VÅG",
+      "gardenCountOne": "1 BLOMMA  ·  +{fresh} DENNA VÅG",
+      "gardenEmpty": "INGA KÄRNOR ÄN · FÅNGA DEM NÄSTA VÅG"
+    }
+  },
+  "textures": {
+    "planet": "planet.png"
+  }
+}

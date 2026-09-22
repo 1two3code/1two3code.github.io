@@ -1,0 +1,24 @@
+{
+	"placeholder_one": "Sök bland {{count}} spel",
+	"placeholder_other": "Sök bland {{count}} spel",
+	"results_one": "{{count}} träff",
+	"results_other": "{{count}} träffar",
+	"genres": "Bläddra efter genre",
+	"popular": "Populära",
+	"keyboard": {
+		"space": "Mellanslag",
+		"backspace": "Radera"
+	},
+	"empty": {
+		"title": "Inga träffar för ”{{query}}”",
+		"body": "Prova med färre bokstäver, eller bläddra efter genre."
+	},
+	"hint": {
+		"type": "Skriv",
+		"erase": "Radera",
+		"space": "Mellanslag",
+		"open": "Öppna",
+		"play": "Spela",
+		"browse": "Bläddra"
+	}
+}

@@ -1,0 +1,96 @@
+{
+	"header": "SERVICE MENU",
+	"title": "Service",
+	"subtitle": "For whoever looks after the cabinet",
+	"category": {
+		"coins": "Coins & credits",
+		"kiosk": "Kiosk mode",
+		"games": "Games",
+		"bookkeeping": "Bookkeeping",
+		"tester": "Button test",
+		"maintenance": "Maintenance",
+		"system": "System"
+	},
+	"categoryDescription": {
+		"coins": "Free play or coin operation",
+		"kiosk": "Lock the cabinet down for players",
+		"games_one": "{{count}} game installed, {{hidden}} hidden",
+		"games_other": "{{count}} games installed, {{hidden}} hidden",
+		"bookkeeping": "Plays and play time since installation",
+		"tester": "Check the stick and every button",
+		"maintenance": "Resets. Hold button 1 to confirm.",
+		"system": "Restart or shut down. Hold button 1 to confirm."
+	},
+	"coins": {
+		"freePlay": "Free play",
+		"freePlayDescription": "Every game starts without a coin",
+		"creditsPerCoin": "Credits per coin",
+		"creditsPerCoinDescription": "How many plays one coin buys",
+		"creditsUnused": "Not used while free play is on",
+		"credits_one": "{{count}} credit",
+		"credits_other": "{{count}} credits",
+		"inserted": "Coins inserted",
+		"insertedDescription": "Lifetime total"
+	},
+	"kiosk": {
+		"mode": "Kiosk mode",
+		"modeDescription": "Hides Settings from players",
+		"name": "Cabinet name",
+		"nameDescription": "Shown in the top-left corner",
+		"pin": "Change service code",
+		"pinDescription": "Four stick moves that open this menu",
+		"playerSettings": "Player settings",
+		"playerSettingsDescription": "Volume, display, language and attract mode",
+		"theme": "Theme",
+		"themeDescription": "The cabinet's look: the menu and every game with a matching skin",
+		"nameFromTheme": "{{name}} (from the theme)"
+	},
+	"games": {
+		"shown": "Shown",
+		"hidden": "Hidden",
+		"hiddenByCatalogue": "Hidden by the catalogue"
+	},
+	"bookkeeping": {
+		"plays": "plays",
+		"minutes": "minutes played",
+		"coins": "coins",
+		"playsCount_one": "{{count}} play",
+		"playsCount_other": "{{count}} plays",
+		"minutesPlayed_one": "{{count}} minute played",
+		"minutesPlayed_other": "{{count}} minutes played"
+	},
+	"maintenance": {
+		"clearScores": "Clear high scores",
+		"clearScoresDescription": "Removes every record in every game",
+		"resetSettings": "Factory reset settings",
+		"resetSettingsDescription": "Everything back to default, the service code too"
+	},
+	"system": {
+		"restart": "Restart launcher",
+		"restartDescription": "Reloads the menu; games are not affected",
+		"shutdown": "Shut down",
+		"shutdownDescription": "Wait for a black screen before cutting power",
+		"quit": "Exit to desktop",
+		"quitDescription": "For maintenance with a keyboard and mouse"
+	},
+	"hint": {
+		"leave": "Leave"
+	},
+	"pin": {
+		"title": "Service code",
+		"instructions": "Move the stick in the right order to open the service menu",
+		"wrong": "Wrong code, try again",
+		"hintEnter": "Enter code",
+		"hintCancel": "Cancel"
+	},
+	"record": {
+		"step_one": "Step {{step}} of {{count}}",
+		"step_other": "Step {{step}} of {{count}}",
+		"title": "New service code",
+		"text_one": "Move the stick in one direction",
+		"text_other": "Move the stick in {{count}} directions, in any order you like",
+		"confirmTitle": "Repeat the code",
+		"confirmText": "Make the same moves once more",
+		"mismatch": "The codes did not match, start over"
+	}
+}

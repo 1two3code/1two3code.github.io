@@ -1,0 +1,12 @@
+{
+	"id": "daylight",
+	"name": { "sv": "Dagsljus", "en": "Daylight" },
+	"brandName": "Arkad",
+	"logo": "logo.svg",
+	"favicon": "logo.svg",
+	"fonts": [
+		{ "family": "Outfit", "file": "fonts/outfit-latin-500-normal.woff2", "weight": 500 },
+		{ "family": "Outfit", "file": "fonts/outfit-latin-700-normal.woff2", "weight": 700 }
+	],
+	"swatches": ["#f1ede4", "#c2185b", "#00707f", "#14161f"]
+}

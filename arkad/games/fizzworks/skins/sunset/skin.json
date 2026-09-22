@@ -1,0 +1,60 @@
+{
+  "name": "Sunset",
+  "palette": {
+    "bg": "#12061c",
+    "title": "#ffe7c2",
+    "text": "#f0c4dd",
+    "accent": "#ff8a3d",
+    "accent2": "#ffd166",
+    "panel": "#1b0a28",
+    "panelEdge": "#5a2360",
+    "field": "#1c0b26",
+    "fieldDeco": "#4a1f5c",
+    "p1": "#ffd166",
+    "p1Dark": "#b3782a",
+    "p1Cap": "#ff5e8a",
+    "p2": "#06d6a0",
+    "p2Dark": "#047a5c",
+    "p2Cap": "#ff8a3d",
+    "bubble": "#ffc6e0",
+    "bubbleEdge": "#ff8fc0",
+    "bubbleWarn": "#ffd166",
+    "bubbleFlash": "#ff4d6d",
+    "hopper": "#4cc9f0",
+    "hopperDark": "#1b6f8a",
+    "tosser": "#f15bb5",
+    "tosserDark": "#9c2a70",
+    "drifter": "#f7b267",
+    "drifterDark": "#a8612a",
+    "tile0": "#ff5e8a",
+    "tile1": "#ff8a3d",
+    "tile2": "#c9184a",
+    "tile3": "#9b5de5",
+    "tile4": "#f15bb5",
+    "letterOff": "#4a2361",
+    "letterOn": "#ff8a3d",
+    "popupBig": "#ffd166"
+  },
+  "strings": {
+    "en": {
+      "title": "SUNSET FIZZ",
+      "tagline": "Fizz the evening shift into bubbles before the lights go out."
+    },
+    "sv": {
+      "title": "SKYMNINGSBUBBEL",
+      "tagline": "Bubbla in kvällsskiftet innan lamporna släcks."
+    }
+  },
+  "textures": {
+    "backdrop": "backdrop.png"
+  },
+  "game": {
+    "levels": "levels.txt"
+  },
+  "catalog": {
+    "tagline": {
+      "en": "Fizz the evening shift into bubbles before the lights go out.",
+      "sv": "Bubbla in kvällsskiftet innan lamporna släcks."
+    }
+  }
+}

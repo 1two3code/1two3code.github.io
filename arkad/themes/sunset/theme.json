@@ -1,0 +1,20 @@
+{
+	"id": "sunset",
+	"name": { "sv": "Solnedgång", "en": "Sunset" },
+	"brandName": "Sunset Arcade",
+	"logo": "logo.svg",
+	"favicon": "favicon.svg",
+	"fonts": [
+		{ "family": "Chakra Petch", "file": "fonts/chakra-petch-latin-500-normal.woff2", "weight": 500 },
+		{ "family": "Chakra Petch", "file": "fonts/chakra-petch-latin-700-normal.woff2", "weight": 700 }
+	],
+	"sounds": {
+		"move": "sounds/move.wav",
+		"toggle": "sounds/toggle.wav",
+		"select": "sounds/select.wav",
+		"back": "sounds/back.wav",
+		"coin": "sounds/coin.wav",
+		"launch": "sounds/launch.wav"
+	},
+	"swatches": ["#1b0f24", "#ff8a3d", "#ff5e8a", "#ffd166"]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Sunset",
+  "palette": {
+    "bg": "#12061c",
+    "title": "#ffe7c2",
+    "text": "#e0a9c9",
+    "accent": "#ff8a3d",
+    "field": "#1b0a28",
+    "grid": "#2c1240",
+    "wall": "#4a1d4f",
+    "wallEdge": "#ff5e8a",
+    "paddle": "#ffd166",
+    "paddle2": "#06d6a0",
+    "paddleEdge": "#ff5e8a",
+    "ball": "#fff4e0",
+    "fire": "#ff5e8a",
+    "fireCore": "#ffe7c2",
+    "brickA": "#ff5e8a",
+    "brickB": "#ff8a3d",
+    "brickC": "#ffd166",
+    "brickD": "#f15bb5",
+    "brickE": "#9b5de5",
+    "brickF": "#5e60ce",
+    "hard": "#ffc6a8",
+    "super": "#c9184a",
+    "metal": "#3c1642",
+    "metalShine": "#ff9e7a",
+    "bomb": "#ff006e",
+    "bombMark": "#ffe7c2",
+    "power": "#06d6a0",
+    "puIcon": "#2a0f33",
+    "laser": "#ff5e8a",
+    "meter": "#ffd166",
+    "meterBg": "#1b0a28",
+    "meterFrame": "#ff5e8a",
+    "combo": "#ffd166"
+  },
+  "strings": {
+    "en": {
+      "title": "SUNSET BLITZ",
+      "tagline": "Smash the evening sky, one glowing brick at a time.",
+      "blitzGo": "SUPERNOVA!",
+      "blitz": "HEAT"
+    },
+    "sv": {
+      "title": "KVÄLLSBLITZ",
+      "tagline": "Krossa kvällshimlen, en glödande tegelsten i taget.",
+      "blitzGo": "SUPERNOVA!",
+      "blitz": "HETTA"
+    }
+  },
+  "textures": {
+    "field": "field.png"
+  },
+  "game": {
+    "levels": "levels.txt"
+  }
+}

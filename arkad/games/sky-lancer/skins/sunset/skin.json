@@ -1,0 +1,64 @@
+{
+  "name": "Sunset",
+  "palette": {
+    "bg": "#1c0f2e",
+    "title": "#ffe7c2",
+    "text": "#ffd0b0",
+    "accent": "#ff8a3d",
+    "skyTop": "#2a1850",
+    "skyBottom": "#ff7a59",
+    "star": "#ffe9f0",
+    "moon": "#ffd66b",
+    "moonSpot": "#ffd66b",
+    "hills": "#7a2e62",
+    "hillsNear": "#46183f",
+    "rock": "#a4526b",
+    "rockDark": "#5a2342",
+    "crust": "#ffb38a",
+    "crustHi": "#ffe2c6",
+    "lava": "#e0266a",
+    "lavaHot": "#ffc15e",
+    "lavaDark": "#7a0f3d",
+    "p1Mount": "#ff9ecb",
+    "p1Wing": "#d9608f",
+    "p1Rider": "#3de0c2",
+    "p2Mount": "#ffd166",
+    "p2Wing": "#d99a20",
+    "p2Rider": "#4d7cff",
+    "scoutMount": "#e8d5c4",
+    "scoutWing": "#b39a86",
+    "scoutRider": "#7b2cbf",
+    "raiderMount": "#06d6a0",
+    "raiderWing": "#049470",
+    "raiderRider": "#1b0f24",
+    "warlordMount": "#2e1f47",
+    "warlordWing": "#1a1030",
+    "warlordRider": "#ff4d6d",
+    "pterror": "#9b5de5",
+    "pterrorWing": "#6a36b0",
+    "pterrorEye": "#ffee32",
+    "hudP1": "#ff9ecb",
+    "hudP2": "#ffd166",
+    "banner": "#ffd166",
+    "bannerSub": "#ffe7c2"
+  },
+  "strings": {
+    "en": {
+      "title": "DUSK LANCER",
+      "tagline": "Tap button 1 to soar. Strike from above to win.",
+      "waveAttack": "KNOCK EVERY RIDER OUT OF THE SUNSET",
+      "pterrorWarn": "THE DUSK DRAKE HUNTS!",
+      "pterrorTip": "DIVE ON IT FROM ABOVE"
+    },
+    "sv": {
+      "title": "SKYMNINGSLANS",
+      "tagline": "Tryck knapp 1 för att sväva. Anfall ovanifrån och vinn.",
+      "waveAttack": "FÄLL VARJE RYTTARE I SOLNEDGÅNGEN",
+      "pterrorWarn": "SKYMNINGSDRAKEN JAGAR!",
+      "pterrorTip": "DYK PÅ DEN OVANIFRÅN"
+    }
+  },
+  "textures": {
+    "egg": "egg.png"
+  }
+}

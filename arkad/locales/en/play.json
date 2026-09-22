@@ -1,0 +1,16 @@
+{
+	"exitHint": "Hold 2 to pause or quit",
+	"resume": "Resume",
+	"restart": "Restart",
+	"exit": "Quit to menu",
+	"simulated": "{{title}} is a native game — simulated in the browser, back in a few seconds",
+	"running": "{{title}} is running",
+	"newHighScore": "New high score! #{{rank}}",
+	"initialsHelp": "Enter your initials",
+	"hint": {
+		"letter": "Letter",
+		"next": "Next",
+		"previous": "Previous",
+		"select": "Select"
+	}
+}

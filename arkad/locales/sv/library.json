@@ -1,0 +1,32 @@
+{
+	"count_one": "{{count}} spel",
+	"count_other": "{{count}} spel",
+	"chip": {
+		"all": "Alla spel",
+		"favourites": "Favoriter",
+		"versus": "2 spelare"
+	},
+	"sort": {
+		"label": "Sortera",
+		"az": "A–Ö",
+		"recent": "Senast spelade",
+		"popular": "Mest spelade",
+		"year": "Nyast först"
+	},
+	"empty": {
+		"title": "Inga spel här",
+		"body": "Inget spel passar det här filtret just nu. Välj ett annat ovanför.",
+		"favouritesTitle": "Inga favoriter än",
+		"favouritesBefore": "Tryck",
+		"favouritesAfter": "på ett spel du gillar, så hamnar det här."
+	},
+	"hint": {
+		"open": "Öppna",
+		"play": "Spela",
+		"favourite": "Favorit",
+		"unfavourite": "Ta bort favorit",
+		"page": "Bläddra",
+		"sort": "Sortera",
+		"filter": "Välj"
+	}
+}

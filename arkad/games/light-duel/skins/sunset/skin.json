@@ -1,0 +1,35 @@
+{
+  "name": "Sunset",
+  "palette": {
+    "bg": "#12060f",
+    "title": "#ffe7c2",
+    "text": "#e3a98c",
+    "accent": "#ff8a3d",
+    "floor": "#1e0b26",
+    "wall": "#ffb86b",
+    "wallFill": "#2b0f24",
+    "warning": "#ff3d6e",
+    "hud": "#160812",
+    "meter": "#3a1830",
+    "core": "#fff4de",
+    "rider1": "#ffd166",
+    "rider2": "#ef476f",
+    "rider3": "#06d6a0",
+    "rider4": "#8ecae6"
+  },
+  "strings": {
+    "en": {
+      "title": "DUSK DUEL",
+      "tagline": "Race the last light · Button 1 boosts · Trap them before dark",
+      "wallsClosing": "THE DUSK CLOSES IN!",
+      "go": "RIDE!"
+    },
+    "sv": {
+      "title": "SKYMNINGSDUELL",
+      "tagline": "Kappkör mot sista ljuset · Knapp 1 boostar · Fånga dem före mörkret",
+      "wallsClosing": "SKYMNINGEN SLUTER SIG!",
+      "go": "KÖR!"
+    }
+  },
+  "textures": { "floor": "floor.png" }
+}

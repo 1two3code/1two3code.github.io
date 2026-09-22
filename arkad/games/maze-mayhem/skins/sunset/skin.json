@@ -1,0 +1,46 @@
+{
+  "name": "Sunset Boulevard",
+  "palette": {
+    "bg": "#1a0b1f",
+    "title": "#ffe9c7",
+    "text": "#f4b8a0",
+    "accent": "#ff9e3d",
+    "player1": "#ffd166",
+    "player2": "#06d6a0",
+    "eyePupil": "#2a0f2e",
+    "mouth": "#5a1036",
+    "wall": "#ff5f8f",
+    "wallGlow": "#c2185b",
+    "wallFill": "#3a0f33",
+    "wallFlash": "#ffe9c7",
+    "door": "#ffd166",
+    "dot": "#ffd8a8",
+    "power": "#ff9e3d",
+    "chaser1": "#7b2cbf",
+    "chaser2": "#3a86ff",
+    "chaser3": "#2ec4b6",
+    "chaser4": "#8338ec",
+    "scared": "#4cc9f0",
+    "scaredFace": "#1a0b1f",
+    "scaredFlash": "#ffffff",
+    "scaredFlashFace": "#c2185b",
+    "hudLine": "#5a1036",
+    "danger": "#ff006e"
+  },
+  "strings": {
+    "en": {
+      "title": "SUNSET MUNCH",
+      "tagline": "Munch the last light. Catch a sun and turn the chase around!",
+      "maze1": "###############################\n#.............###.............#\n#.#.###.#.###.###.###.#.###.#.#\n#o..#.....###.....###.....#..o#\n#.###.###.###########.###.###.#\n#.........#..1.S.2..#.........#\n#####.#####.###.###.#####.#####\n    #.#####    F    #####.#    \n#####.#####.#######.#####.#####\nttt........ #HHHHH# ........ttt\n#####.#####.###-###.#####.#####\n    #.#####    G    #####.#    \n#####.#####.#.###.#.#####.#####\n#.....###...#.....#...###.....#\n#.###.###.###########.###.###.#\n#.............................#\n#.###.###.###.###.###.###.###.#\n#o....###.....###.....###....o#\n###############################"
+    },
+    "sv": {
+      "title": "SOLGAPET",
+      "tagline": "Glufsa det sista ljuset. Fånga en sol och vänd på jakten!",
+      "ready": "KLAR?",
+      "go": "NU!"
+    }
+  },
+  "textures": {
+    "bonus1": "sun.png"
+  }
+}

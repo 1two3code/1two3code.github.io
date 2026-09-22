@@ -1,0 +1,19 @@
+{
+	"category": "Spelinställningar",
+	"categoryDescription": "Svårighetsgrad, liv och annat per spel",
+	"game": "Spel",
+	"changedCount_one": "{{count}} inställning ändrad från standard",
+	"changedCount_other": "{{count}} inställningar ändrade från standard",
+	"allDefault_one": "{{count}} inställning, standardvärde",
+	"allDefault_other": "{{count}} inställningar, alla på standard",
+	"appliesNext": "Gäller från nästa start",
+	"default": "Standard: {{value}}",
+	"changed": "Ändrad",
+	"on": "På",
+	"off": "Av",
+	"reset": "Återställ standard",
+	"resetDescription": "Alla inställningar för {{title}} tillbaka till spelets standard",
+	"isDefault": "Allt är standard",
+	"none": "Inga spel med inställningar",
+	"noneDescription": "Inget installerat spel anger egna inställningar i katalogen"
+}

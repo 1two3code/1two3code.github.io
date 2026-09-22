@@ -1,0 +1,18 @@
+{
+	"rows": {
+		"recent": "Continue playing",
+		"favourites": "Favourites",
+		"new": "New on this cabinet",
+		"popular": "Most played",
+		"versus": "Two players, head to head",
+		"all": "All games"
+	},
+	"play": "Play",
+	"details": "Details",
+	"favourite": "Favourite",
+	"hint": {
+		"open": "Open",
+		"play": "Play",
+		"favourite": "Favourite"
+	}
+}

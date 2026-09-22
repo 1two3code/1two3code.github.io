@@ -1,0 +1,19 @@
+{
+	"category": "Game settings",
+	"categoryDescription": "Difficulty, lives and more, per game",
+	"game": "Game",
+	"changedCount_one": "{{count}} setting changed from its default",
+	"changedCount_other": "{{count}} settings changed from their defaults",
+	"allDefault_one": "{{count}} setting, at its default",
+	"allDefault_other": "{{count}} settings, all at their defaults",
+	"appliesNext": "Applies from the next start",
+	"default": "Default: {{value}}",
+	"changed": "Changed",
+	"on": "On",
+	"off": "Off",
+	"reset": "Restore defaults",
+	"resetDescription": "Every setting for {{title}} back to the game's default",
+	"isDefault": "All at default",
+	"none": "No games with settings",
+	"noneDescription": "No installed game declares settings in the catalogue"
+}

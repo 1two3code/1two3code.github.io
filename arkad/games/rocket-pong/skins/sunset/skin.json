@@ -1,0 +1,32 @@
+{
+  "name": "Sunset",
+  "palette": {
+    "bg": "#1b0f24",
+    "title": "#ffe7c2",
+    "text": "#e3a98c",
+    "accent": "#ff8a3d",
+    "p1": "#ffd166",
+    "p2": "#ef476f",
+    "boost": "#06d6a0",
+    "ball": "#ff8a3d",
+    "ballCore": "#fff4de",
+    "exhaust": "#ff3d6e",
+    "court": "#241230",
+    "courtLine": "#4a2550",
+    "dim": "#a0607a"
+  },
+  "strings": {
+    "en": {
+      "title": "SUNSET SMASH",
+      "tagline": "Knock the sun back and forth before it sets",
+      "rocket": "SUNBURST!",
+      "cpu": "DUSK"
+    },
+    "sv": {
+      "title": "SOLNEDGÅNGSSMASH",
+      "tagline": "Slå solen fram och tillbaka innan den går ner",
+      "rocket": "SOLSTORM!",
+      "cpu": "SKYMNING"
+    }
+  }
+}

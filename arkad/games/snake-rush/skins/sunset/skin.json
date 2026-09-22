@@ -1,0 +1,37 @@
+{
+  "name": "Sunset",
+  "palette": {
+    "bg": "#1b0f24",
+    "title": "#ffe7c2",
+    "text": "#e3a98c",
+    "accent": "#ff8a3d",
+    "board": "#241230",
+    "grid": "#33193f",
+    "wall": "#ff8a3d",
+    "wrapEdge": "#a0607a",
+    "snake": "#ffd166",
+    "snakeHead": "#fff1c9",
+    "eye": "#1b0f24",
+    "apple": "#ef476f",
+    "leaf": "#06d6a0",
+    "boost": "#06d6a0",
+    "meter": "#3a1c44",
+    "danger": "#ff3d6e"
+  },
+  "strings": {
+    "en": {
+      "title": "DUSK SERPENT",
+      "tagline": "Chase the last light · grow before the sun goes down",
+      "modeNormal": "NORMAL · THE CANYON WALLS BITE",
+      "modeParty": "PARTY · THE DESERT WRAPS AROUND",
+      "speedUp": "THE SUN SINKS FASTER!"
+    },
+    "sv": {
+      "title": "SKYMNINGSORMEN",
+      "tagline": "Jaga sista ljuset · väx innan solen går ner",
+      "modeNormal": "NORMAL · KANJONENS VÄGGAR BITS",
+      "modeParty": "PARTY · ÖKNEN LEDER RUNT",
+      "speedUp": "SOLEN SJUNKER SNABBARE!"
+    }
+  }
+}

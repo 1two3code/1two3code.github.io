@@ -1,0 +1,1671 @@
+{
+ "version": 1,
+ "games": [
+  {
+   "id": "snake-rush",
+   "title": "Snake Rush",
+   "tagline": {
+    "sv": "Ät, väx, bit inte dig själv.",
+    "en": "Eat, grow, don't bite yourself."
+   },
+   "description": {
+    "sv": "Klassisk orm, gjord för spak: farten ökar vart tionde äpple, och i Party-läget leder kanterna runt. Knapp 1 boostar för dubbla poäng.",
+    "en": "The classic snake, tuned for a joystick: the speed ramps every ten apples and the board wraps at the edges on Party difficulty."
+   },
+   "developer": "Arkad Games",
+   "year": 2026,
+   "genres": [
+    "arcade"
+   ],
+   "players": {
+    "min": 1,
+    "max": 1
+   },
+   "simultaneous": false,
+   "orientation": "horizontal",
+   "controls": {
+    "stick": "4way",
+    "buttons": [
+     {
+      "button": "b1",
+      "label": "Boost"
+     }
+    ]
+   },
+   "art": {
+    "primary": "#22e4ff",
+    "secondary": "#0b3d91",
+    "cover": "./games/snake-rush/art/cover.png",
+    "hero": "./games/snake-rush/art/hero.png"
+   },
+   "launch": {
+    "kind": "web",
+    "url": "./games/snake-rush/index.html"
+   },
+   "addedAt": "2026-09-21",
+   "hidden": false,
+   "demo": true,
+   "settings": [
+    {
+     "key": "difficulty",
+     "type": "choice",
+     "label": {
+      "sv": "Svårighetsgrad",
+      "en": "Difficulty"
+     },
+     "values": [
+      {
+       "value": "easy",
+       "label": {
+        "sv": "Lätt",
+        "en": "Easy"
+       }
+      },
+      {
+       "value": "normal",
+       "label": {
+        "sv": "Normal",
+        "en": "Normal"
+       }
+      },
+      {
+       "value": "hard",
+       "label": {
+        "sv": "Svår",
+        "en": "Hard"
+       }
+      }
+     ],
+     "default": "normal",
+     "description": {
+      "sv": "Hur fort ormen rör sig från början",
+      "en": "How fast the snake moves at the start"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rocket-pong",
+   "title": "Rocket Rebound",
+   "tagline": {
+    "sv": "Två paddlar, en raketdriven boll.",
+    "en": "Two paddles, one rocket-powered ball."
+   },
+   "description": {
+    "sv": "Paddelduell med raket: bollen blir snabbare för varje slag, och en paddel som boostar med knapp 1 i slaget skickar i väg den som en raket. En spelare mot datorn, eller två mot varandra.",
+    "en": "A paddle duel with a rocket: the ball speeds up on every hit, and a paddle boosting with button 1 as it hits sends it off like a rocket. One player against the CPU, or two head to head."
+   },
+   "developer": "Arkad Games",
+   "year": 2026,
+   "genres": [
+    "sports",
+    "party"
+   ],
+   "players": {
+    "min": 1,
+    "max": 2
+   },
+   "simultaneous": true,
+   "orientation": "horizontal",
+   "controls": {
+    "stick": "2way",
+    "buttons": [
+     {
+      "button": "b1",
+      "label": "Boost"
+     }
+    ]
+   },
+   "art": {
+    "primary": "#ff2e88",
+    "secondary": "#3a0ca3",
+    "cover": "./games/rocket-pong/art/cover.png",
+    "hero": "./games/rocket-pong/art/hero.png"
+   },
+   "launch": {
+    "kind": "web",
+    "url": "./games/rocket-pong/index.html"
+   },
+   "addedAt": "2026-09-21",
+   "hidden": false,
+   "demo": true,
+   "settings": [
+    {
+     "key": "pointsToWin",
+     "type": "number",
+     "label": {
+      "sv": "Poäng för vinst",
+      "en": "Points to win"
+     },
+     "description": {
+      "sv": "Först till så många poäng vinner matchen",
+      "en": "The first to this many points wins the match"
+     },
+     "min": 3,
+     "max": 21,
+     "default": 7
+    },
+    {
+     "key": "difficulty",
+     "type": "choice",
+     "label": {
+      "sv": "Svårighetsgrad",
+      "en": "Difficulty"
+     },
+     "values": [
+      {
+       "value": "easy",
+       "label": {
+        "sv": "Lätt",
+        "en": "Easy"
+       }
+      },
+      {
+       "value": "normal",
+       "label": {
+        "sv": "Normal",
+        "en": "Normal"
+       }
+      },
+      {
+       "value": "hard",
+       "label": {
+        "sv": "Svår",
+        "en": "Hard"
+       }
+      }
+     ],
+     "default": "normal",
+     "description": {
+      "sv": "Hur skarpt datorn spelar",
+      "en": "How sharp the CPU plays"
+     }
+    }
+   ]
+  },
+  {
+   "id": "neon-drift",
+   "title": "Neon Drift",
+   "tagline": {
+    "sv": "Glid genom en stad som aldrig sover.",
+    "en": "Slide through a city that never sleeps."
+   },
+   "description": {
+    "sv": "Driftracing uppifrån genom neongator. Kedja driftar för multiplikator och kör mot en kompis sida vid sida.",
+    "en": "Top-down drift racing through neon streets. Chain drifts for multiplier, race a friend side by side."
+   },
+   "developer": "Arkad Games",
+   "year": 2026,
+   "genres": [
+    "racing"
+   ],
+   "players": {
+    "min": 1,
+    "max": 2
+   },
+   "simultaneous": true,
+   "orientation": "horizontal",
+   "controls": {
+    "stick": "8way",
+    "buttons": [
+     {
+      "button": "b1",
+      "label": "Gas"
+     },
+     {
+      "button": "b2",
+      "label": {
+       "sv": "Broms",
+       "en": "Brake"
+      }
+     },
+     {
+      "button": "b3",
+      "label": "Drift"
+     }
+    ]
+   },
+   "art": {
+    "primary": "#ff2e88",
+    "secondary": "#22e4ff"
+   },
+   "launch": {
+    "kind": "exec",
+    "command": "/opt/arcade/games/neon-drift/neon-drift",
+    "args": [
+     "--fullscreen"
+    ]
+   },
+   "addedAt": "2026-09-10",
+   "hidden": true
+  },
+  {
+   "id": "pixel-knights",
+   "title": "Pixel Knights",
+   "tagline": {
+    "sv": "Två hjältar, ett torn, hundra våningar.",
+    "en": "Two heroes, one tower, a hundred floors."
+   },
+   "description": {
+    "sv": "Ett samarbetsplattformsspel där varje våning är en skärm. Dela liv, sno varandras byte.",
+    "en": "A co-op platformer where every floor is a single screen. Share lives, steal each other's loot."
+   },
+   "developer": "Arkad Games",
+   "year": 2026,
+   "genres": [
+    "platformer",
+    "action"
+   ],
+   "players": {
+    "min": 1,
+    "max": 2
+   },
+   "simultaneous": true,
+   "orientation": "horizontal",
+   "controls": {
+    "stick": "8way",
+    "buttons": [
+     {
+      "button": "b1",
+      "label": {
+       "sv": "Hopp",
+       "en": "Jump"
+      }
+     },
+     {
+      "button": "b2",
+      "label": "Attack"
+     }
+    ]
+   },
+   "art": {
+    "primary": "#ffc940",
+    "secondary": "#7a2e0e"
+   },
+   "launch": {
+    "kind": "exec",
+    "command": "/opt/arcade/games/pixel-knights/pixel-knights",
+    "args": []
+   },
+   "addedAt": "2026-08-30",
+   "hidden": true
+  },
+  {
+   "id": "star-courier",
+   "title": "Star Courier",
+   "tagline": {
+    "sv": "Leverera paketet. Överlev galaxen.",
+    "en": "Deliver the parcel. Survive the galaxy."
+   },
+   "description": {
+    "sv": "Ett stående shoot 'em up för TATE-skåp. Fånga paketen som driver genom rymden och bogsera dem till slutet av rutten: varje paket ombord när bossen faller multiplicerar banans poäng, upp till ×6. En träff och lasten sprids. Tre rutter, tre bossar i två faser, läsbara kulmönster och en liten, synlig träffyta.",
+    "en": "A vertical shoot-'em-up made for TATE cabinets. Grab the parcels drifting through space and tow them to the end of the route: every parcel still aboard when the boss falls multiplies the stage score, up to ×6. One hit and the cargo scatters. Three routes, three two-phase bosses, readable bullet patterns and a tiny, visible hitbox."
+   },
+   "developer": "Arkad Games",
+   "year": 2026,
+   "genres": [
+    "shooter",
+    "arcade"
+   ],
+   "players": {
+    "min": 1,
+    "max": 1
+   },
+   "simultaneous": false,
+   "orientation": "vertical",
+   "controls": {
+    "stick": "8way",
+    "buttons": [
+     {
+      "button": "b1",
+      "label": {
+       "sv": "Skjut (håll)",
+       "en": "Fire (hold)"
+      }
+     },
+     {
+      "button": "b2",
+      "label": "Bomb"
+     },
+     {
+      "button": "b3",
+      "label": {
+       "sv": "Fokus",
+       "en": "Focus"
+      }
+     },
+     {
+      "button": "start",
+      "label": {
+       "sv": "Fortsätt",
+       "en": "Continue"
+      }
+     }
+    ]
+   },
+   "art": {
+    "primary": "#7cff6b",
+    "secondary": "#0a2a12",
+    "cover": "./games/star-courier/art/cover.png",
+    "hero": "./games/star-courier/art/hero.png"
+   },
+   "launch": {
+    "kind": "web",
+    "url": "./games/star-courier/index.html"
+   },
+   "addedAt": "2026-07-14",
+   "hidden": false,
+   "demo": true,
+   "settings": [
+    {
+     "key": "difficulty",
+     "type": "choice",
+     "label": {
+      "sv": "Svårighetsgrad",
+      "en": "Difficulty"
+     },
+     "values": [
+      {
+       "value": "easy",
+       "label": {
+        "sv": "Lätt",
+        "en": "Easy"
+       }
+      },
+      {
+       "value": "normal",
+       "label": {
+        "sv": "Normal",
+        "en": "Normal"
+       }
+      },
+      {
+       "value": "hard",
+       "label": {
+        "sv": "Svår",
+        "en": "Hard"
+       }
+      }
+     ],
+     "default": "normal"
+    },
+    {
+     "key": "lives",
+     "type": "number",
+     "label": {
+      "sv": "Skepp",
+      "en": "Ships"
+     },
+     "description": {
+      "sv": "Skepp vid start",
+      "en": "Ships at the start"
+     },
+     "min": 1,
+     "max": 9,
+     "default": 3
+    },
+    {
+     "key": "bombs",
+     "type": "number",
+     "label": {
+      "sv": "Bomber",
+      "en": "Bombs"
+     },
+     "description": {
+      "sv": "Bomber per skepp",
+      "en": "Bombs per ship"
+     },
+     "min": 0,
+     "max": 9,
+     "default": 3
+    },
+    {
+     "key": "continues",
+     "type": "toggle",
+     "label": {
+      "sv": "Fortsättningar",
+      "en": "Continues"
+     },
+     "description": {
+      "sv": "Fortsätt efter sista skeppet",
+      "en": "Continue after the last ship"
+     },
+     "default": true
+    }
+   ]
+  },
+  {
+   "id": "block-party",
+   "title": "Block Party",
+   "tagline": {
+    "sv": "Stapla blocken. Rensa raderna. Starta festen.",
+    "en": "Stack the blocks. Clear the lines. Start the party."
+   },
+   "description": {
+    "sv": "Pussel med fallande block. Maraton: rensa rader, gå upp i nivå, och var 30:e rad ger en festbit som duschar skärmen i konfetti och dubblar nästa rensning. Versus: två spelare sida vid sida, bäst av tre – rensa två rader eller fler för att skicka skräp till motståndaren.",
+    "en": "Falling-block puzzle. Marathon: clear lines, level up, and every 30 lines earn a party piece that showers the screen in confetti and doubles your next clear. Versus: two players side by side, best of three — clear two or more lines to send garbage to your rival."
+   },
+   "developer": "Arkad Games",
+   "year": 2026,
+   "genres": [
+    "puzzle",
+    "party"
+   ],
+   "players": {
+    "min": 1,
+    "max": 2
+   },
+   "simultaneous": true,
+   "orientation": "horizontal",
+   "controls": {
+    "stick": "4way",
+    "buttons": [
+     {
+      "button": "b1",
+      "label": {
+       "sv": "Rotera",
+       "en": "Rotate"
+      }
+     },
+     {
+      "button": "b2",
+      "label": {
+       "sv": "Spara",
+       "en": "Hold"
+      }
+     },
+     {
+      "button": "b3",
+      "label": {
+       "sv": "Släpp",
+       "en": "Drop"
+      }
+     },
+     {
+      "button": "b4",
+      "label": {
+       "sv": "Rotera tillbaka",
+       "en": "Rotate back"
+      }
+     }
+    ]
+   },
+   "art": {
+    "primary": "#b14dff",
+    "secondary": "#1b1540",
+    "cover": "./games/block-party/art/cover.png",
+    "hero": "./games/block-party/art/hero.png"
+   },
+   "launch": {
+    "kind": "web",
+    "url": "./games/block-party/index.html"
+   },
+   "addedAt": "2026-06-02",
+   "hidden": false,
+   "demo": true,
+   "settings": [
+    {
+     "key": "difficulty",
+     "type": "choice",
+     "label": {
+      "sv": "Svårighetsgrad",
+      "en": "Difficulty"
+     },
+     "values": [
+      {
+       "value": "easy",
+       "label": {
+        "sv": "Lätt",
+        "en": "Easy"
+       }
+      },
+      {
+       "value": "normal",
+       "label": {
+        "sv": "Normal",
+        "en": "Normal"
+       }
+      },
+      {
+       "value": "hard",
+       "label": {
+        "sv": "Svår",
+        "en": "Hard"
+       }
+      }
+     ],
+     "default": "normal"
+    },
+    {
+     "key": "startLevel",
+     "type": "number",
+     "label": {
+      "sv": "Startnivå",
+      "en": "Starting level"
+     },
+     "description": {
+      "sv": "Nivån maratonet börjar på",
+      "en": "The level the marathon starts on"
+     },
+     "min": 1,
+     "max": 15,
+     "default": 1
+    },
+    {
+     "key": "partyEvery",
+     "type": "number",
+     "label": {
+      "sv": "Festbit var",
+      "en": "Party piece every"
+     },
+     "description": {
+      "sv": "Rader som krävs för en festbit i maraton",
+      "en": "Lines needed for a party piece in marathon"
+     },
+     "min": 5,
+     "max": 100,
+     "step": 5,
+     "default": 30
+    }
+   ]
+  },
+  {
+   "id": "dojo-duel",
+   "title": "Dojo Duel",
+   "tagline": {
+    "sv": "Bäst av tre. Ingen nåd.",
+    "en": "Best of three. No mercy."
+   },
+   "description": {
+    "sv": "Ett fightingspel en mot en med sex knappar och åtta elever från samma dojo.",
+    "en": "A one-on-one fighter with six-button controls and a roster of eight students of the same dojo."
+   },
+   "developer": "Arkad Games",
+   "year": 2026,
+   "genres": [
+    "fighting"
+   ],
+   "players": {
+    "min": 1,
+    "max": 2
+   },
+   "simultaneous": true,
+   "orientation": "horizontal",
+   "controls": {
+    "stick": "8way",
+    "buttons": [
+     {
+      "button": "b1",
+      "label": {
+       "sv": "Lätt slag",
+       "en": "Light punch"
+      }
+     },
+     {
+      "button": "b2",
+      "label": {
+       "sv": "Mellanslag",
+       "en": "Medium punch"
+      }
+     },
+     {
+      "button": "b3",
+      "label": {
+       "sv": "Tungt slag",
+       "en": "Heavy punch"
+      }
+     },
+     {
+      "button": "b4",
+      "label": {
+       "sv": "Lätt spark",
+       "en": "Light kick"
+      }
+     },
+     {
+      "button": "b5",
+      "label": {
+       "sv": "Mellanspark",
+       "en": "Medium kick"
+      }
+     },
+     {
+      "button": "b6",
+      "label": {
+       "sv": "Tung spark",
+       "en": "Heavy kick"
+      }
+     }
+    ]
+   },
+   "art": {
+    "primary": "#ff4d4d",
+    "secondary": "#2a0b0b"
+   },
+   "launch": {
+    "kind": "exec",
+    "command": "/opt/arcade/games/dojo-duel/dojo-duel",
+    "args": []
+   },
+   "addedAt": "2026-05-20",
+   "hidden": true
+  },
+  {
+   "id": "moon-miner",
+   "title": "Moon Miner",
+   "tagline": {
+    "sv": "Gräv djupt. Tänk på syret.",
+    "en": "Dig deep. Mind the oxygen."
+   },
+   "description": {
+    "sv": "Styr en borr genom månskorpan, sälj malm, uppgradera, igen – en runda till.",
+    "en": "Steer a drill through the lunar crust, sell ore, upgrade, repeat — one more run."
+   },
+   "developer": "Arkad Games",
+   "year": 2026,
+   "genres": [
+    "arcade",
+    "action"
+   ],
+   "players": {
+    "min": 1,
+    "max": 1
+   },
+   "simultaneous": false,
+   "orientation": "horizontal",
+   "controls": {
+    "stick": "4way",
+    "buttons": [
+     {
+      "button": "b1",
+      "label": {
+       "sv": "Borra",
+       "en": "Drill"
+      }
+     },
+     {
+      "button": "b2",
+      "label": {
+       "sv": "Dynamit",
+       "en": "Dynamite"
+      }
+     }
+    ]
+   },
+   "art": {
+    "primary": "#c0c8d8",
+    "secondary": "#20263a"
+   },
+   "launch": {
+    "kind": "exec",
+    "command": "/opt/arcade/games/moon-miner/moon-miner",
+    "args": []
+   },
+   "addedAt": "2026-04-11",
+   "hidden": true
+  },
+  {
+   "id": "turbo-tennis",
+   "title": "Turbo Tennis",
+   "tagline": {
+    "sv": "Serva snabbt, skryt snabbare.",
+    "en": "Serve fast, gloat faster."
+   },
+   "description": {
+    "sv": "Arkadtennis med kraftslag och en publik som hejar på den som ligger under.",
+    "en": "Arcade tennis with power shots and a crowd that cheers for whoever is losing."
+   },
+   "developer": "Arkad Games",
+   "year": 2026,
+   "genres": [
+    "sports"
+   ],
+   "players": {
+    "min": 1,
+    "max": 2
+   },
+   "simultaneous": true,
+   "orientation": "horizontal",
+   "controls": {
+    "stick": "8way",
+    "buttons": [
+     {
+      "button": "b1",
+      "label": {
+       "sv": "Slag",
+       "en": "Shot"
+      }
+     },
+     {
+      "button": "b2",
+      "label": {
+       "sv": "Lobb",
+       "en": "Lob"
+      }
+     }
+    ]
+   },
+   "art": {
+    "primary": "#d9ff3d",
+    "secondary": "#1e4d2b"
+   },
+   "launch": {
+    "kind": "exec",
+    "command": "/opt/arcade/games/turbo-tennis/turbo-tennis",
+    "args": []
+   },
+   "addedAt": "2026-03-03",
+   "hidden": true
+  },
+  {
+   "id": "hop-street",
+   "title": "Hop Street",
+   "tagline": {
+    "sv": "Gå över vägen. Och gå över den igen.",
+    "en": "Cross the road. Then cross it again."
+   },
+   "description": {
+    "sv": "Hoppa en ruta per spakdrag över sex filer trafik och en flod av stockar och dykande flottar, och fyll alla fem hem innan klockan tar slut. Varje dag ger en ny gata, samma på varje maskin. Två spelare turas om.",
+    "en": "Hop one tile per stick push across six lanes of traffic and a river of logs and diving floaters, and fill all five homes before the clock runs out. Every day brings a new street, the same on every cabinet. Two players take turns."
+   },
+   "developer": "Arkad Games",
+   "year": 2026,
+   "genres": [
+    "arcade"
+   ],
+   "players": {
+    "min": 1,
+    "max": 2
+   },
+   "simultaneous": false,
+   "orientation": "vertical",
+   "controls": {
+    "stick": "4way",
+    "buttons": [
+     {
+      "button": "start",
+      "label": {
+       "sv": "Start / 2P-start",
+       "en": "Start / 2P start"
+      }
+     }
+    ]
+   },
+   "art": {
+    "primary": "#3dffb4",
+    "secondary": "#083b2e",
+    "cover": "./games/hop-street/art/cover.png",
+    "hero": "./games/hop-street/art/hero.png"
+   },
+   "launch": {
+    "kind": "web",
+    "url": "./games/hop-street/index.html"
+   },
+   "addedAt": "2026-02-17",
+   "hidden": false,
+   "demo": true,
+   "settings": [
+    {
+     "key": "lives",
+     "type": "number",
+     "label": {
+      "sv": "Liv",
+      "en": "Lives"
+     },
+     "description": {
+      "sv": "Liv per spelare vid start",
+      "en": "Lives per player at the start"
+     },
+     "min": 1,
+     "max": 9,
+     "default": 3
+    },
+    {
+     "key": "difficulty",
+     "type": "choice",
+     "label": {
+      "sv": "Svårighetsgrad",
+      "en": "Difficulty"
+     },
+     "values": [
+      {
+       "value": "easy",
+       "label": {
+        "sv": "Lätt",
+        "en": "Easy"
+       }
+      },
+      {
+       "value": "normal",
+       "label": {
+        "sv": "Normal",
+        "en": "Normal"
+       }
+      },
+      {
+       "value": "hard",
+       "label": {
+        "sv": "Svår",
+        "en": "Hard"
+       }
+      }
+     ],
+     "default": "normal"
+    }
+   ]
+  },
+  {
+   "id": "glow-golf",
+   "title": "Glow Golf",
+   "tagline": {
+    "sv": "Arton hål i mörkret.",
+    "en": "Eighteen holes in the dark."
+   },
+   "description": {
+    "sv": "Minigolf i UV-ljus. Spelarna turas om; spaken siktar, knapp 1 bestämmer kraften.",
+    "en": "Mini golf under black light. Players take turns; the stick aims, button 1 sets the power."
+   },
+   "developer": "Arkad Games",
+   "year": 2026,
+   "genres": [
+    "sports",
+    "party"
+   ],
+   "players": {
+    "min": 1,
+    "max": 2
+   },
+   "simultaneous": false,
+   "orientation": "horizontal",
+   "controls": {
+    "stick": "8way",
+    "buttons": [
+     {
+      "button": "b1",
+      "label": {
+       "sv": "Svinga",
+       "en": "Swing"
+      }
+     }
+    ]
+   },
+   "art": {
+    "primary": "#ffb020",
+    "secondary": "#3b1f00"
+   },
+   "launch": {
+    "kind": "exec",
+    "command": "/opt/arcade/games/glow-golf/glow-golf",
+    "args": []
+   },
+   "addedAt": "2026-01-09",
+   "hidden": true
+  },
+  {
+   "id": "asteroid-garden",
+   "title": "Asteroid Garden",
+   "tagline": {
+    "sv": "Skjut sten, fånga frön, odla blommor.",
+    "en": "Shoot rocks, catch seeds, grow flowers."
+   },
+   "description": {
+    "sv": "Ett glödande vektorskjutspel med tröghet och skärmen som leder runt. Varje sten du spräcker släpper ett frö: fånga dem i snabba kedjor för bonuspoäng och se dem blomma runt din lilla planet mellan vågorna. Tefat från våg 3, extra skepp var 10 000:e poäng. Två spelare turas om.",
+    "en": "A glowing vector rock shooter with inertia and screen wrap. Every rock you break drops a seed: catch them in quick chains for bonus points, and watch them bloom around your little planet between waves. Saucers from wave 3, extra ship every 10 000. Two players take turns."
+   },
+   "developer": "Arkad Games",
+   "year": 2026,
+   "genres": [
+    "shooter",
+    "arcade"
+   ],
+   "players": {
+    "min": 1,
+    "max": 2
+   },
+   "simultaneous": false,
+   "orientation": "horizontal",
+   "controls": {
+    "stick": "4way",
+    "buttons": [
+     {
+      "button": "b1",
+      "label": {
+       "sv": "Skjut",
+       "en": "Fire"
+      }
+     },
+     {
+      "button": "b2",
+      "label": {
+       "sv": "Hyperrymd",
+       "en": "Hyperspace"
+      }
+     }
+    ]
+   },
+   "art": {
+    "primary": "#7df9c3",
+    "secondary": "#04050c",
+    "cover": "./games/asteroid-garden/art/cover.png",
+    "hero": "./games/asteroid-garden/art/hero.png"
+   },
+   "launch": {
+    "kind": "web",
+    "url": "./games/asteroid-garden/index.html"
+   },
+   "addedAt": "2025-12-01",
+   "hidden": false,
+   "demo": true,
+   "settings": [
+    {
+     "key": "lives",
+     "type": "number",
+     "label": {
+      "sv": "Liv",
+      "en": "Lives"
+     },
+     "description": {
+      "sv": "Liv per spelare vid start",
+      "en": "Lives per player at the start"
+     },
+     "min": 1,
+     "max": 9,
+     "default": 3
+    },
+    {
+     "key": "difficulty",
+     "type": "choice",
+     "label": {
+      "sv": "Svårighetsgrad",
+      "en": "Difficulty"
+     },
+     "values": [
+      {
+       "value": "easy",
+       "label": {
+        "sv": "Lätt",
+        "en": "Easy"
+       }
+      },
+      {
+       "value": "normal",
+       "label": {
+        "sv": "Normal",
+        "en": "Normal"
+       }
+      },
+      {
+       "value": "hard",
+       "label": {
+        "sv": "Svår",
+        "en": "Hard"
+       }
+      }
+     ],
+     "default": "normal"
+    }
+   ]
+  },
+  {
+   "id": "maze-mayhem",
+   "title": "Maze Mayhem",
+   "tagline": {
+    "sv": "Fyra jägare. Tvåhundra prickar. Ett hungrigt klot.",
+    "en": "Four hunters. Two hundred dots. One hungry orb."
+   },
+   "description": {
+    "sv": "Ät varenda prick medan Rush, Sly, Swoop och Shy jagar dig, var och en på sitt sätt. Ta en kraftcell för att vända jakten. I versus för två delar ni labyrinten: en kraftcell gör också motståndaren till byte.",
+    "en": "Munch every dot while Rush, Sly, Swoop and Shy hunt you, each in their own way. Grab a power cell to turn the hunt around. In 2-player versus you share the maze: a power cell makes your rival prey too."
+   },
+   "developer": "Arkad Games",
+   "year": 2026,
+   "genres": [
+    "arcade",
+    "party"
+   ],
+   "players": {
+    "min": 1,
+    "max": 2
+   },
+   "simultaneous": true,
+   "orientation": "horizontal",
+   "controls": {
+    "stick": "4way",
+    "buttons": [
+     {
+      "button": "b1",
+      "label": {
+       "sv": "Rusa",
+       "en": "Dash"
+      }
+     }
+    ]
+   },
+   "art": {
+    "primary": "#4d7cff",
+    "secondary": "#0a1340",
+    "cover": "./games/maze-mayhem/art/cover.png",
+    "hero": "./games/maze-mayhem/art/hero.png"
+   },
+   "launch": {
+    "kind": "web",
+    "url": "./games/maze-mayhem/index.html"
+   },
+   "addedAt": "2025-11-12",
+   "hidden": false,
+   "demo": true,
+   "settings": [
+    {
+     "key": "difficulty",
+     "type": "choice",
+     "label": {
+      "sv": "Svårighetsgrad",
+      "en": "Difficulty"
+     },
+     "values": [
+      {
+       "value": "easy",
+       "label": {
+        "sv": "Lätt",
+        "en": "Easy"
+       }
+      },
+      {
+       "value": "normal",
+       "label": {
+        "sv": "Normal",
+        "en": "Normal"
+       }
+      },
+      {
+       "value": "hard",
+       "label": {
+        "sv": "Svår",
+        "en": "Hard"
+       }
+      }
+     ],
+     "default": "normal"
+    },
+    {
+     "key": "lives",
+     "type": "number",
+     "label": {
+      "sv": "Liv",
+      "en": "Lives"
+     },
+     "description": {
+      "sv": "Liv per spelare vid start",
+      "en": "Lives per player at the start"
+     },
+     "min": 1,
+     "max": 9,
+     "default": 3
+    },
+    {
+     "key": "bonusLife",
+     "type": "choice",
+     "label": {
+      "sv": "Extraliv vid",
+      "en": "Bonus life at"
+     },
+     "description": {
+      "sv": "Poäng för det enda extralivet",
+      "en": "Score for the one extra life"
+     },
+     "values": [
+      {
+       "value": 0,
+       "label": {
+        "sv": "Aldrig",
+        "en": "Never"
+       }
+      },
+      5000,
+      10000,
+      20000,
+      30000
+     ],
+     "default": 10000
+    }
+   ]
+  },
+  {
+   "id": "sky-lancer",
+   "title": "Sky Lancer",
+   "tagline": {
+    "sv": "Lansar högt över lavan.",
+    "en": "Lances high over the lava."
+   },
+   "description": {
+    "sv": "Flaxa för att stiga, anfall uppifrån: den högsta lansen vinner. Kasta av ryttarna, ta deras ägg innan de kläcks till värre, och akta dig för lavan. Två spelare rider tillsammans eller mot varandra.",
+    "en": "Flap to rise, strike from above: the higher lance wins. Unseat the riders, grab their eggs before they hatch into worse ones, and watch the lava below. Two players ride together, or against each other."
+   },
+   "developer": "Arkad Games",
+   "year": 2026,
+   "genres": [
+    "action",
+    "party"
+   ],
+   "players": {
+    "min": 1,
+    "max": 2
+   },
+   "simultaneous": true,
+   "orientation": "horizontal",
+   "controls": {
+    "stick": "2way",
+    "buttons": [
+     {
+      "button": "b1",
+      "label": {
+       "sv": "Flaxa",
+       "en": "Flap"
+      }
+     }
+    ]
+   },
+   "art": {
+    "primary": "#ffd6a5",
+    "secondary": "#5c2a00",
+    "cover": "./games/sky-lancer/art/cover.png",
+    "hero": "./games/sky-lancer/art/hero.png"
+   },
+   "launch": {
+    "kind": "web",
+    "url": "./games/sky-lancer/index.html"
+   },
+   "addedAt": "2025-10-05",
+   "hidden": false,
+   "demo": true,
+   "settings": [
+    {
+     "key": "lives",
+     "type": "number",
+     "label": {
+      "sv": "Liv",
+      "en": "Lives"
+     },
+     "description": {
+      "sv": "Liv per spelare vid start",
+      "en": "Lives per player at the start"
+     },
+     "min": 1,
+     "max": 9,
+     "default": 4
+    },
+    {
+     "key": "difficulty",
+     "type": "choice",
+     "label": {
+      "sv": "Svårighetsgrad",
+      "en": "Difficulty"
+     },
+     "values": [
+      {
+       "value": "easy",
+       "label": {
+        "sv": "Lätt",
+        "en": "Easy"
+       }
+      },
+      {
+       "value": "normal",
+       "label": {
+        "sv": "Normal",
+        "en": "Normal"
+       }
+      },
+      {
+       "value": "hard",
+       "label": {
+        "sv": "Svår",
+        "en": "Hard"
+       }
+      }
+     ],
+     "default": "normal"
+    },
+    {
+     "key": "extraLifeEvery",
+     "type": "choice",
+     "label": {
+      "sv": "Extraliv var",
+      "en": "Extra life every"
+     },
+     "description": {
+      "sv": "Poäng mellan varje extraliv",
+      "en": "Points between extra lives"
+     },
+     "values": [
+      {
+       "value": 0,
+       "label": {
+        "sv": "Aldrig",
+        "en": "Never"
+       }
+      },
+      10000,
+      20000,
+      30000,
+      50000
+     ],
+     "default": 20000
+    }
+   ]
+  },
+  {
+   "id": "template",
+   "title": "Dodge",
+   "tagline": {
+    "sv": "Spelmallen: ta ädelstenarna, undvik resten.",
+    "en": "The game template: grab gems, dodge the rest."
+   },
+   "description": {
+    "sv": "Startpunkten som varje Arkad-spel kopieras från (games/_template). Visar kitet: skal, demo-AI, 1P och 2P versus.",
+    "en": "The starter every Arkad game is copied from (games/_template). Shows the kit: skins, demo AI, 1P and 2P versus."
+   },
+   "developer": "Arkad Games",
+   "year": 2026,
+   "genres": [
+    "arcade"
+   ],
+   "players": {
+    "min": 1,
+    "max": 2
+   },
+   "simultaneous": true,
+   "orientation": "horizontal",
+   "controls": {
+    "stick": "2way",
+    "buttons": []
+   },
+   "art": {
+    "primary": "#22e4ff",
+    "secondary": "#0b3d91"
+   },
+   "launch": {
+    "kind": "web",
+    "url": "./games/template/index.html"
+   },
+   "addedAt": "2026-09-22",
+   "hidden": true,
+   "demo": true,
+   "settings": [
+    {
+     "key": "lives",
+     "type": "number",
+     "label": {
+      "sv": "Liv",
+      "en": "Lives"
+     },
+     "description": {
+      "sv": "Liv per spelare vid start",
+      "en": "Lives per player at the start"
+     },
+     "min": 1,
+     "max": 9,
+     "default": 3
+    },
+    {
+     "key": "difficulty",
+     "type": "choice",
+     "label": {
+      "sv": "Svårighetsgrad",
+      "en": "Difficulty"
+     },
+     "values": [
+      {
+       "value": "normal",
+       "label": {
+        "sv": "Normal",
+        "en": "Normal"
+       }
+      },
+      {
+       "value": "hard",
+       "label": {
+        "sv": "Svår",
+        "en": "Hard"
+       }
+      }
+     ],
+     "default": "normal"
+    }
+   ]
+  },
+  {
+   "id": "brick-blitz",
+   "title": "Brick Blitz",
+   "tagline": {
+    "sv": "Slå sönder tegel snabbt nog så blir bollen eld.",
+    "en": "Break bricks fast enough and the ball turns to fire."
+   },
+   "description": {
+    "sv": "Paddel och tegel genom 20 handgjorda banor med hårda, metall- och sprängtegel. Fånga power-ups (bred paddel, flera bollar, laser, långsam boll, magnet, extra liv) och kedja snabba träffar för att fylla blitzmätaren: när den är full blir bollen ett eldklot som plöjer genom allt i fem sekunder. En spelare, eller två som turas om.",
+    "en": "Paddle and bricks across 20 hand-made levels with hard, metal and explosive bricks. Catch power-ups (wide paddle, multi-ball, laser, slow ball, magnet, extra life) and chain quick breaks to fill the blitz meter: when it is full the ball becomes a fireball that ploughs through everything for five seconds. One player, or two taking turns."
+   },
+   "developer": "Arkad Games",
+   "year": 2026,
+   "genres": [
+    "arcade"
+   ],
+   "players": {
+    "min": 1,
+    "max": 2
+   },
+   "simultaneous": false,
+   "orientation": "horizontal",
+   "controls": {
+    "stick": "2way",
+    "buttons": [
+     {
+      "button": "b1",
+      "label": {
+       "sv": "Skjut ut / laser",
+       "en": "Launch / laser"
+      }
+     },
+     {
+      "button": "start",
+      "label": "Start"
+     }
+    ]
+   },
+   "art": {
+    "primary": "#2de2ff",
+    "secondary": "#ff4d6d",
+    "cover": "./games/brick-blitz/art/cover.png",
+    "hero": "./games/brick-blitz/art/hero.png"
+   },
+   "launch": {
+    "kind": "web",
+    "url": "./games/brick-blitz/index.html"
+   },
+   "addedAt": "2026-09-21",
+   "hidden": false,
+   "demo": true,
+   "settings": [
+    {
+     "key": "lives",
+     "type": "number",
+     "label": {
+      "sv": "Liv",
+      "en": "Lives"
+     },
+     "description": {
+      "sv": "Liv per spelare vid start",
+      "en": "Lives per player at the start"
+     },
+     "min": 1,
+     "max": 9,
+     "default": 3
+    },
+    {
+     "key": "difficulty",
+     "type": "choice",
+     "label": {
+      "sv": "Svårighetsgrad",
+      "en": "Difficulty"
+     },
+     "values": [
+      {
+       "value": "easy",
+       "label": {
+        "sv": "Lätt",
+        "en": "Easy"
+       }
+      },
+      {
+       "value": "normal",
+       "label": {
+        "sv": "Normal",
+        "en": "Normal"
+       }
+      },
+      {
+       "value": "hard",
+       "label": {
+        "sv": "Svår",
+        "en": "Hard"
+       }
+      }
+     ],
+     "default": "normal"
+    }
+   ]
+  },
+  {
+   "id": "light-duel",
+   "title": "Light Duel",
+   "tagline": {
+    "sv": "Lämna en vägg av ljus. Få dem att köra in i den.",
+    "en": "Leave a wall of light. Make them hit it."
+   },
+   "description": {
+    "sv": "En ljuscykelduell på ett neonrutnät. Varje förare lämnar ett fast spår av ljus, och den som rör ett spår eller en vägg förlorar rundan. Sväng med spaken och boosta kort med knapp 1 för att skära av en motståndares väg. Efter 20 sekunder börjar arenan krympa. Bäst av fem: mot en kompis, eller mot upp till tre datorförare som blir skarpare för varje etapp.",
+    "en": "A light-cycle duel on a neon grid. Every rider leaves a solid trail of light, and touching any trail or wall ends your round. Turn with the stick, fire a short boost with button 1 to cut across a rival's path. After 20 seconds the arena starts to close in. Best of five: go head to head with a friend, or take on up to three CPU riders that get sharper every stage."
+   },
+   "developer": "Arkad Games",
+   "year": 2026,
+   "genres": [
+    "action",
+    "party"
+   ],
+   "players": {
+    "min": 1,
+    "max": 2
+   },
+   "simultaneous": true,
+   "orientation": "horizontal",
+   "controls": {
+    "stick": "4way",
+    "buttons": [
+     {
+      "button": "b1",
+      "label": "Boost"
+     }
+    ]
+   },
+   "art": {
+    "primary": "#29e7ff",
+    "secondary": "#ff8a1f",
+    "cover": "./games/light-duel/art/cover.png",
+    "hero": "./games/light-duel/art/hero.png"
+   },
+   "launch": {
+    "kind": "web",
+    "url": "./games/light-duel/index.html"
+   },
+   "addedAt": "2026-09-21",
+   "hidden": false,
+   "demo": true,
+   "settings": [
+    {
+     "key": "difficulty",
+     "type": "choice",
+     "label": {
+      "sv": "Svårighetsgrad",
+      "en": "Difficulty"
+     },
+     "values": [
+      {
+       "value": "easy",
+       "label": {
+        "sv": "Lätt",
+        "en": "Easy"
+       }
+      },
+      {
+       "value": "normal",
+       "label": {
+        "sv": "Normal",
+        "en": "Normal"
+       }
+      },
+      {
+       "value": "hard",
+       "label": {
+        "sv": "Svår",
+        "en": "Hard"
+       }
+      }
+     ],
+     "default": "normal"
+    },
+    {
+     "key": "bestOf",
+     "type": "choice",
+     "label": {
+      "sv": "Bäst av",
+      "en": "Best of"
+     },
+     "description": {
+      "sv": "Ronder per match",
+      "en": "Rounds per match"
+     },
+     "values": [
+      1,
+      3,
+      5,
+      7,
+      9
+     ],
+     "default": 5
+    },
+    {
+     "key": "maxCpus",
+     "type": "number",
+     "label": {
+      "sv": "Datorspelare",
+      "en": "CPU riders"
+     },
+     "description": {
+      "sv": "Högst antal datormotståndare i 1P",
+      "en": "Most CPU opponents in 1P"
+     },
+     "min": 1,
+     "max": 3,
+     "default": 3
+    }
+   ]
+  },
+  {
+   "id": "fizzworks",
+   "title": "Fizzworks",
+   "tagline": {
+    "sv": "Fånga maskinerna i bubblor. Spräck dem för godis.",
+    "en": "Trap the machines in fizz. Pop them for treats."
+   },
+   "description": {
+    "sv": "Bubbelplattformsspel för en eller två tillsammans. Två läskflaskor blåser bubblor för att fånga maskinerna som tagit över tappningsfabriken, och spräcker dem för poäng och godis. Studsa på bubblorna för att klättra, spräck flera fångade på en gång för dubbla poäng per fånge, och skynda dig innan pannan kokar över.",
+    "en": "Bubble-trapping platformer for one player or two together. Two soda-bottle mascots blow fizz bubbles to trap the machines that took over the bottling plant, then pop them for points and treats. Bounce on bubbles to climb, pop several trapped machines at once to double the score for each, and hurry before the boiler blows."
+   },
+   "developer": "Arkad Games",
+   "year": 2026,
+   "genres": [
+    "platformer",
+    "arcade"
+   ],
+   "players": {
+    "min": 1,
+    "max": 2
+   },
+   "simultaneous": true,
+   "orientation": "horizontal",
+   "controls": {
+    "stick": "2way",
+    "buttons": [
+     {
+      "button": "b1",
+      "label": {
+       "sv": "Hoppa · håll: studsa",
+       "en": "Jump · hold: bounce"
+      }
+     },
+     {
+      "button": "b2",
+      "label": {
+       "sv": "Blås bubbla",
+       "en": "Blow bubble"
+      }
+     },
+     {
+      "button": "start",
+      "label": {
+       "sv": "Start / hoppa in",
+       "en": "Start / join in"
+      }
+     }
+    ]
+   },
+   "art": {
+    "primary": "#5ce1b0",
+    "secondary": "#ff4f7b",
+    "cover": "./games/fizzworks/art/cover.png",
+    "hero": "./games/fizzworks/art/hero.png"
+   },
+   "launch": {
+    "kind": "web",
+    "url": "./games/fizzworks/index.html"
+   },
+   "addedAt": "2026-09-22",
+   "hidden": false,
+   "demo": true,
+   "settings": [
+    {
+     "key": "difficulty",
+     "type": "choice",
+     "label": {
+      "sv": "Svårighetsgrad",
+      "en": "Difficulty"
+     },
+     "description": {
+      "sv": "Maskinernas fart och tiden innan SKYNDA!",
+      "en": "Enemy speed and the time before HURRY UP!"
+     },
+     "values": [
+      {
+       "value": "easy",
+       "label": {
+        "sv": "Lätt",
+        "en": "Easy"
+       }
+      },
+      {
+       "value": "normal",
+       "label": {
+        "sv": "Normal",
+        "en": "Normal"
+       }
+      },
+      {
+       "value": "hard",
+       "label": {
+        "sv": "Svår",
+        "en": "Hard"
+       }
+      }
+     ],
+     "default": "normal"
+    },
+    {
+     "key": "lives",
+     "type": "number",
+     "label": {
+      "sv": "Liv",
+      "en": "Lives"
+     },
+     "description": {
+      "sv": "Liv per spelare och fortsättning",
+      "en": "Lives per player and continue"
+     },
+     "min": 1,
+     "max": 9,
+     "step": 1,
+     "default": 3
+    }
+   ]
+  }
+ ]
+}

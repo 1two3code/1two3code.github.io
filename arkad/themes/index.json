@@ -1,0 +1,216 @@
+{
+	"default": "noir",
+	"themes": [
+		"noir",
+		"daylight",
+		"sunset"
+	],
+	"gameSkins": {
+		"asteroid-garden": [
+			"sunset"
+		],
+		"block-party": [
+			"sunset"
+		],
+		"brick-blitz": [
+			"sunset"
+		],
+		"fizzworks": [
+			"sunset"
+		],
+		"hop-street": [
+			"sunset"
+		],
+		"light-duel": [
+			"sunset"
+		],
+		"maze-mayhem": [
+			"sunset"
+		],
+		"rocket-pong": [
+			"sunset"
+		],
+		"sky-lancer": [
+			"sunset"
+		],
+		"snake-rush": [
+			"sunset"
+		],
+		"star-courier": [
+			"sunset"
+		],
+		"template": [
+			"sunset"
+		]
+	},
+	"skinCatalog": {
+		"asteroid-garden": {
+			"sunset": {
+				"title": {
+					"sv": "SOLODLINGEN",
+					"en": "SUNSET ORCHARD"
+				},
+				"tagline": {
+					"sv": "Spräck kometerna. Fånga kärnorna. Plantera en solnedgång.",
+					"en": "Crack the comets. Catch the pips. Plant a sunset."
+				},
+				"cover": "./games/asteroid-garden/skins/sunset/art/cover.png",
+				"hero": "./games/asteroid-garden/skins/sunset/art/hero.png"
+			}
+		},
+		"block-party": {
+			"sunset": {
+				"title": {
+					"sv": "KVÄLLSSTAPELN",
+					"en": "SUNSET STACK"
+				},
+				"tagline": {
+					"sv": "Stapla tills solen går ner. Sen blir det fest.",
+					"en": "Stack till the sun goes down. Then party."
+				},
+				"cover": "./games/block-party/skins/sunset/art/cover.png",
+				"hero": "./games/block-party/skins/sunset/art/hero.png"
+			}
+		},
+		"brick-blitz": {
+			"sunset": {
+				"title": {
+					"sv": "KVÄLLSBLITZ",
+					"en": "SUNSET BLITZ"
+				},
+				"tagline": {
+					"sv": "Krossa kvällshimlen, en glödande tegelsten i taget.",
+					"en": "Smash the evening sky, one glowing brick at a time."
+				},
+				"cover": "./games/brick-blitz/skins/sunset/art/cover.png",
+				"hero": "./games/brick-blitz/skins/sunset/art/hero.png"
+			}
+		},
+		"fizzworks": {
+			"sunset": {
+				"title": {
+					"sv": "SKYMNINGSBUBBEL",
+					"en": "SUNSET FIZZ"
+				},
+				"tagline": {
+					"sv": "Bubbla in kvällsskiftet innan lamporna släcks.",
+					"en": "Fizz the evening shift into bubbles before the lights go out."
+				},
+				"cover": "./games/fizzworks/skins/sunset/art/cover.png",
+				"hero": "./games/fizzworks/skins/sunset/art/hero.png"
+			}
+		},
+		"hop-street": {
+			"sunset": {
+				"title": {
+					"sv": "SKYMNINGSGATAN",
+					"en": "DUSK DRIVE"
+				},
+				"tagline": {
+					"sv": "Hoppa hem innan det mörknar. Ta lyktorna på vägen.",
+					"en": "Hop home before dark. Grab the lanterns on the way."
+				},
+				"cover": "./games/hop-street/skins/sunset/art/cover.png",
+				"hero": "./games/hop-street/skins/sunset/art/hero.png"
+			}
+		},
+		"light-duel": {
+			"sunset": {
+				"title": {
+					"sv": "SKYMNINGSDUELL",
+					"en": "DUSK DUEL"
+				},
+				"tagline": {
+					"sv": "Kappkör mot sista ljuset · Knapp 1 boostar · Fånga dem före mörkret",
+					"en": "Race the last light · Button 1 boosts · Trap them before dark"
+				},
+				"cover": "./games/light-duel/skins/sunset/art/cover.png",
+				"hero": "./games/light-duel/skins/sunset/art/hero.png"
+			}
+		},
+		"maze-mayhem": {
+			"sunset": {
+				"title": {
+					"sv": "SOLGAPET",
+					"en": "SUNSET MUNCH"
+				},
+				"tagline": {
+					"sv": "Glufsa det sista ljuset. Fånga en sol och vänd på jakten!",
+					"en": "Munch the last light. Catch a sun and turn the chase around!"
+				},
+				"cover": "./games/maze-mayhem/skins/sunset/art/cover.png",
+				"hero": "./games/maze-mayhem/skins/sunset/art/hero.png"
+			}
+		},
+		"rocket-pong": {
+			"sunset": {
+				"title": {
+					"sv": "SOLNEDGÅNGSSMASH",
+					"en": "SUNSET SMASH"
+				},
+				"tagline": {
+					"sv": "Slå solen fram och tillbaka innan den går ner",
+					"en": "Knock the sun back and forth before it sets"
+				},
+				"cover": "./games/rocket-pong/skins/sunset/art/cover.png",
+				"hero": "./games/rocket-pong/skins/sunset/art/hero.png"
+			}
+		},
+		"sky-lancer": {
+			"sunset": {
+				"title": {
+					"sv": "SKYMNINGSLANS",
+					"en": "DUSK LANCER"
+				},
+				"tagline": {
+					"sv": "Tryck knapp 1 för att sväva. Anfall ovanifrån och vinn.",
+					"en": "Tap button 1 to soar. Strike from above to win."
+				},
+				"cover": "./games/sky-lancer/skins/sunset/art/cover.png",
+				"hero": "./games/sky-lancer/skins/sunset/art/hero.png"
+			}
+		},
+		"snake-rush": {
+			"sunset": {
+				"title": {
+					"sv": "SKYMNINGSORMEN",
+					"en": "DUSK SERPENT"
+				},
+				"tagline": {
+					"sv": "Jaga sista ljuset · väx innan solen går ner",
+					"en": "Chase the last light · grow before the sun goes down"
+				},
+				"cover": "./games/snake-rush/skins/sunset/art/cover.png",
+				"hero": "./games/snake-rush/skins/sunset/art/hero.png"
+			}
+		},
+		"star-courier": {
+			"sunset": {
+				"title": {
+					"sv": "SKYMNINGSBUDET",
+					"en": "SUNSET EXPRESS"
+				},
+				"tagline": {
+					"sv": "Samla paket · leverera förbi bossen · ×6 poäng",
+					"en": "Collect gifts · deliver them past the boss · ×6 score"
+				},
+				"cover": "./games/star-courier/skins/sunset/art/cover.png",
+				"hero": "./games/star-courier/skins/sunset/art/hero.png"
+			}
+		},
+		"template": {
+			"sunset": {
+				"title": {
+					"sv": "SKYMNINGSUNDAN",
+					"en": "SUNSET DODGE"
+				},
+				"tagline": {
+					"sv": "Väj för mörkret. Ta ädelstenarna innan solen går ner.",
+					"en": "Dodge the dusk. Grab the gems before the sun goes down."
+				},
+				"cover": "./games/template/skins/sunset/art/cover.png",
+				"hero": "./games/template/skins/sunset/art/hero.png"
+			}
+		}
+	}
+}

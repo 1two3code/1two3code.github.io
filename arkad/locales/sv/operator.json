@@ -1,0 +1,96 @@
+{
+	"header": "SERVICEMENY",
+	"title": "Service",
+	"subtitle": "Bara för den som sköter maskinen",
+	"category": {
+		"coins": "Mynt och krediter",
+		"kiosk": "Kioskläge",
+		"games": "Spel",
+		"bookkeeping": "Bokföring",
+		"tester": "Knapptest",
+		"maintenance": "Underhåll",
+		"system": "System"
+	},
+	"categoryDescription": {
+		"coins": "Fritt spel eller myntinkast",
+		"kiosk": "Lås maskinen för spelare",
+		"games_one": "{{count}} spel installerat, {{hidden}} dolda",
+		"games_other": "{{count}} spel installerade, {{hidden}} dolda",
+		"bookkeeping": "Spelade omgångar och speltid sedan start",
+		"tester": "Kontrollera spaken och alla knappar",
+		"maintenance": "Återställningar. Håll knapp 1 för att bekräfta.",
+		"system": "Starta om eller stäng av. Håll knapp 1 för att bekräfta."
+	},
+	"coins": {
+		"freePlay": "Fritt spel",
+		"freePlayDescription": "Alla spel startar utan mynt",
+		"creditsPerCoin": "Krediter per mynt",
+		"creditsPerCoinDescription": "Hur många omgångar ett mynt ger",
+		"creditsUnused": "Används inte så länge fritt spel är på",
+		"credits_one": "{{count}} kredit",
+		"credits_other": "{{count}} krediter",
+		"inserted": "Inkastade mynt",
+		"insertedDescription": "Totalt sedan maskinen installerades"
+	},
+	"kiosk": {
+		"mode": "Kioskläge",
+		"modeDescription": "Döljer Inställningar för spelarna",
+		"name": "Maskinens namn",
+		"nameDescription": "Visas uppe till vänster i menyn",
+		"pin": "Byt servicekod",
+		"pinDescription": "Fyra spakrörelser som öppnar den här menyn",
+		"playerSettings": "Spelarinställningar",
+		"playerSettingsDescription": "Volym, bild, språk och demoläge",
+		"theme": "Tema",
+		"themeDescription": "Maskinens utseende: menyn och spelen som har ett matchande skinn",
+		"nameFromTheme": "{{name}} (från temat)"
+	},
+	"games": {
+		"shown": "Visas",
+		"hidden": "Dold",
+		"hiddenByCatalogue": "Dold i katalogen"
+	},
+	"bookkeeping": {
+		"plays": "omgångar",
+		"minutes": "minuter spelade",
+		"coins": "mynt",
+		"playsCount_one": "{{count}} omgång",
+		"playsCount_other": "{{count}} omgångar",
+		"minutesPlayed_one": "{{count}} minut spelad",
+		"minutesPlayed_other": "{{count}} minuter spelade"
+	},
+	"maintenance": {
+		"clearScores": "Nollställ topplistor",
+		"clearScoresDescription": "Tar bort alla rekord i alla spel",
+		"resetSettings": "Fabriksåterställ inställningar",
+		"resetSettingsDescription": "Allt tillbaka till standard, även servicekoden"
+	},
+	"system": {
+		"restart": "Starta om launchern",
+		"restartDescription": "Laddar om menyn, spelen påverkas inte",
+		"shutdown": "Stäng av maskinen",
+		"shutdownDescription": "Vänta tills skärmen är svart innan du bryter strömmen",
+		"quit": "Avsluta till skrivbordet",
+		"quitDescription": "För underhåll med tangentbord och mus"
+	},
+	"hint": {
+		"leave": "Lämna"
+	},
+	"pin": {
+		"title": "Servicekod",
+		"instructions": "Rör spaken i rätt ordning för att öppna servicemenyn",
+		"wrong": "Fel kod, försök igen",
+		"hintEnter": "Ange kod",
+		"hintCancel": "Avbryt"
+	},
+	"record": {
+		"step_one": "Steg {{step}} av {{count}}",
+		"step_other": "Steg {{step}} av {{count}}",
+		"title": "Ny servicekod",
+		"text_one": "Rör spaken i en riktning",
+		"text_other": "Rör spaken i {{count}} riktningar, i den ordning du vill",
+		"confirmTitle": "Upprepa koden",
+		"confirmText": "Gör samma rörelser en gång till",
+		"mismatch": "Koderna var olika, börja om"
+	}
+}

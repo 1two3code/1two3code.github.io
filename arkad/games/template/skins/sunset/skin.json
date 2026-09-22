@@ -1,0 +1,16 @@
+{
+  "name": "Sunset",
+  "palette": {
+    "bg": "#1b0f24",
+    "title": "#ffe7c2",
+    "accent": "#ff8a3d",
+    "player": "#ffd166",
+    "player2": "#ef476f",
+    "hazard": "#7b2cbf",
+    "gem": "#06d6a0"
+  },
+  "strings": {
+    "en": { "title": "SUNSET DODGE", "tagline": "Dodge the dusk. Grab the gems before the sun goes down." },
+    "sv": { "title": "SKYMNINGSUNDAN", "tagline": "Väj för mörkret. Ta ädelstenarna innan solen går ner." }
+  }
+}

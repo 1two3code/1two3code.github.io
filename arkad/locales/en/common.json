@@ -1,0 +1,49 @@
+{
+	"nav": {
+		"home": "Home",
+		"library": "Library",
+		"search": "Search",
+		"scores": "Scores",
+		"settings": "Settings"
+	},
+	"freePlay": "FREE PLAY",
+	"credits_one": "CREDIT {{count}}",
+	"credits_other": "CREDITS {{count}}",
+	"players_one": "1 player",
+	"players_other": "{{range}} players",
+	"back": "Back",
+	"hold": "hold",
+	"caps": {
+		"b1": "1",
+		"b2": "2",
+		"b3": "3",
+		"b4": "4",
+		"start": "START",
+		"coin": "COIN",
+		"stick": "✥",
+		"page": "⇆"
+	},
+	"badge": {
+		"new": "New"
+	},
+	"genre": {
+		"action": "Action",
+		"arcade": "Arcade",
+		"fighting": "Fighting",
+		"platformer": "Platformer",
+		"puzzle": "Puzzle",
+		"racing": "Racing",
+		"shooter": "Shooter",
+		"sports": "Sports",
+		"party": "Party"
+	},
+	"notice": {
+		"insertCoin": "Insert coin",
+		"creditAdded": "Credit added",
+		"crashed": "The game stopped unexpectedly",
+		"saved": "Saved",
+		"loadFailed": "The game could not be started"
+	},
+	"catalogFailed": "No games found. Check the games folder (games/catalog.json).",
+	"open": "Open"
+}

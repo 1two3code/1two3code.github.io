@@ -1,0 +1,119 @@
+{
+	"title": "Settings",
+	"subtitle": "Changes save automatically",
+	"category": {
+		"display": "Display",
+		"sound": "Sound",
+		"language": "Language",
+		"attract": "Attract mode",
+		"controls": "Controls",
+		"about": "About"
+	},
+	"categoryDescription": {
+		"display": "Screen orientation and look",
+		"sound": "Volume and menu sound effects",
+		"language": "The language of the menus",
+		"attract": "What plays when nobody is playing",
+		"controls": "Test the stick and every button",
+		"about": "Version and system"
+	},
+	"display": {
+		"rotation": "Screen rotation",
+		"rotationDescription": "Turn the picture for a vertical monitor",
+		"rotation0": "Landscape",
+		"rotation90": "90°",
+		"rotation180": "180°",
+		"rotation270": "270°",
+		"scanlines": "Scanlines",
+		"scanlinesDescription": "Faint lines like an old CRT",
+		"reduceMotion": "Reduce motion",
+		"reduceMotionDescription": "Turn off animations and smooth transitions",
+		"showClock": "Show clock",
+		"showClockDescription": "The clock in the top-right corner",
+		"theme": "Theme",
+		"themeDescription": "Colours, fonts and logo, and the games that have a matching skin",
+		"effects": "Effects",
+		"effectsDescription": "Lite: less blur and motion, for slower machines",
+		"effects_auto": "Auto",
+		"effectsAutoDetected": "Auto ({{level}})",
+		"effects_full": "Full",
+		"effects_lite": "Lite"
+	},
+	"sound": {
+		"volume": "Volume",
+		"volumeDescription": "Master volume for menus and games",
+		"uiSounds": "Menu sounds",
+		"uiSoundsDescription": "Clicks and beeps while browsing",
+		"attractSound": "Attract mode sound",
+		"attractSoundDescription": "Play audio while the cabinet shows off its games"
+	},
+	"language": {
+		"label": "Language",
+		"description": "Used in every menu"
+	},
+	"attract": {
+		"enabled": "Attract mode",
+		"enabledDescription": "Show the games on screen when nobody is playing",
+		"idle": "Start after",
+		"idleDescription": "How long the cabinet must sit untouched first",
+		"seconds_one": "{{count}} second",
+		"seconds_other": "{{count}} s",
+		"minutes_one": "{{count}} minute",
+		"minutes_other": "{{count}} minutes"
+	},
+	"about": {
+		"cabinet": "Cabinet name",
+		"version": "Version",
+		"platform": "Platform",
+		"hostname": "Hostname",
+		"games": "Games",
+		"hidden_one": "{{count}} of them hidden",
+		"hidden_other": "{{count}} of them hidden"
+	},
+	"value": {
+		"on": "On",
+		"off": "Off"
+	},
+	"hint": {
+		"choose": "Choose",
+		"open": "Open",
+		"change": "Change",
+		"categories": "Categories",
+		"home": "Home"
+	},
+	"hold": {
+		"hint": "Confirm",
+		"idle": "Hold 1 for 1.5 s",
+		"holding": "Keep holding …",
+		"done": "Done"
+	},
+	"tester": {
+		"idle": "Test",
+		"live": "Testing",
+		"howToStart": "Press 1 to start. The test then takes over every button.",
+		"howToExit": "Press everything that should work. Hold 2 for a second to finish.",
+		"hintStart": "Start test",
+		"hintExit": "End test",
+		"stick": "Stick",
+		"start": "Start",
+		"coin": "Coin",
+		"menu": "Menu",
+		"last": "Last:",
+		"none": "–",
+		"action": {
+			"up": "Stick up",
+			"down": "Stick down",
+			"left": "Stick left",
+			"right": "Stick right",
+			"confirm": "Button 1",
+			"back": "Button 2",
+			"b3": "Button 3",
+			"b4": "Button 4",
+			"pageLeft": "Button 5",
+			"pageRight": "Button 6",
+			"start": "Start",
+			"coin": "Coin",
+			"menu": "Menu"
+		}
+	}
+}

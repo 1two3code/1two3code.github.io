@@ -1,0 +1,122 @@
+{
+  "section": {
+    "label": "Controls",
+    "description": "Which button is which, the button colours and the connected encoders"
+  },
+  "control": {
+    "up": "Up",
+    "down": "Down",
+    "left": "Left",
+    "right": "Right",
+    "b1": "Button 1",
+    "b2": "Button 2",
+    "b3": "Button 3",
+    "b4": "Button 4",
+    "b5": "Button 5",
+    "b6": "Button 6",
+    "start": "Start",
+    "coin": "Coin",
+    "service": "Service"
+  },
+  "player": "Player {{n}}",
+  "wizard": {
+    "eyebrow": "Control panel",
+    "title": "Teach the cabinet its buttons",
+    "firstBoot": "First start. Press what is asked for, one thing at a time.",
+    "remap": "Press what is asked for, one thing at a time.",
+    "step": "{{current}} / {{total}}",
+    "prompt": {
+      "up": "Push the stick UP",
+      "down": "Push the stick DOWN",
+      "left": "Push the stick LEFT",
+      "right": "Push the stick RIGHT",
+      "b1": "Press BUTTON 1",
+      "b2": "Press BUTTON 2",
+      "b3": "Press BUTTON 3",
+      "b4": "Press BUTTON 4",
+      "b5": "Press BUTTON 5",
+      "b6": "Press BUTTON 6",
+      "start": "Press START",
+      "coin": "Press COIN",
+      "service": "Press SERVICE"
+    },
+    "where": {
+      "up": "The stick on the left of the panel",
+      "down": "The stick on the left of the panel",
+      "left": "The stick on the left of the panel",
+      "right": "The stick on the left of the panel",
+      "b1": "Top row, far left",
+      "b2": "Top row, middle",
+      "b3": "Top row, far right",
+      "b4": "Bottom row, far left",
+      "b5": "Bottom row, middle",
+      "b6": "Bottom row, far right",
+      "start": "The player's start button",
+      "coin": "The coin button or coin slot",
+      "service": "Inside the coin door"
+    },
+    "optional": "Not there? Just wait and it is skipped.",
+    "howTo": "Press and release. Hold to skip.",
+    "release": "Release to choose",
+    "releaseSkip": "Release to skip",
+    "releaseAbort": "Release to leave the guide",
+    "saved": "Saved",
+    "duplicate": "Already used for {{target}}",
+    "skipped": "Skipped",
+    "timeout": "Skipping in {{seconds}} s",
+    "unattended": "Nobody pressed anything, so the default controls are used. The guide is in the service menu under Controls.",
+    "summaryTitle": "Done. Does this look right?",
+    "summaryText": "Controls left unset keep the default layout.",
+    "save": "Save",
+    "redo": "Start over",
+    "cancel": "Cancel",
+    "autosave": "Saving automatically in {{seconds}} s",
+    "notMapped": "–",
+    "source": {
+      "evdev": "Reading the encoders directly",
+      "browser": "Keyboard and gamepads"
+    },
+    "hint": {
+      "select": "Press + release: choose",
+      "skip": "Skip",
+      "abort": "Cancel"
+    }
+  },
+  "page": {
+    "panel": "The panel",
+    "panelDescription": "How the buttons are set up now",
+    "run": "Run the controls guide",
+    "runDescription": "Press every direction and button for player 1 and 2",
+    "caps": "Button colours",
+    "defaultsNote": "Italics = the default key (MAME layout) where the guide recorded nothing",
+    "capsDescription": "The colours of the real buttons, so the hints on screen match the panel",
+    "capLabel": "{{control}} colour",
+    "devices": "Encoders",
+    "devicesBrowser": "The browser reads keyboards and gamepads. On the cabinet the shell reads the encoders directly.",
+    "noDevices": "No encoders found",
+    "deviceMapped": "In use",
+    "deviceUnused": "Not used",
+    "devicePermission": "No permission (add the user to the input group)",
+    "deviceKind": {
+      "joystick": "Stick encoder",
+      "keyboard": "Keyboard encoder",
+      "mouse": "Mouse or trackball",
+      "other": "Device"
+    },
+    "reset": "Reset the controls",
+    "resetDescription": "Back to the default layout and the theme's colours. Hold button 1."
+  },
+  "color": {
+    "theme": "Theme",
+    "red": "Red",
+    "blue": "Blue",
+    "yellow": "Yellow",
+    "green": "Green",
+    "white": "White",
+    "black": "Black",
+    "orange": "Orange",
+    "purple": "Purple",
+    "pink": "Pink",
+    "cyan": "Cyan"
+  }
+}

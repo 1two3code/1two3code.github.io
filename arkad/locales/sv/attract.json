@@ -1,0 +1,11 @@
+{
+	"pressStart": "Tryck start",
+	"insertCoin": "Stoppa i ett mynt",
+	"topScore": "Rekord",
+	"scoresKicker": "Bäst i varje spel",
+	"scoresTitle": "Topplista",
+	"rank_ordinal_one": "{{count}}:a",
+	"rank_ordinal_other": "{{count}}:e",
+	"dimmed": "Tryck på valfri knapp",
+	"demo": "Demo"
+}

@@ -1,0 +1,43 @@
+/*
+ * Sunset: warm synthwave dusk, matching every game's sample `sunset` skin (plum night, orange sun,
+ * coral and gold), so setting this one theme reskins the whole cabinet end to end. Chakra Petch for
+ * titles, marimba-like UI sounds (theme.json), and a sun glow low on the page backgrounds.
+ */
+:root[data-theme='sunset'] {
+	--bg: #1b0f24;
+	--surface: #251431;
+	--card: #2f1a3c;
+	--card-raised: #3b2149;
+	--rule: rgb(255 214 170 / 11%);
+	--text: #fff1dc;
+	--text-dim: #e0b2a6;
+	--text-faint: #a57c8f;
+	--accent: #ff8a3d;
+	--accent-soft: rgb(255 138 61 / 38%);
+	--accent-2: #ff6f91;
+	--gold: #ffd166;
+	--silver: #eadcea;
+	--bronze: #f0a46c;
+	--operator: #ffc24d;
+	--danger: #ff5470;
+	--on-accent: #1b0f24;
+	--on-accent-2: #1b0f24;
+	--on-operator: #1b0f24;
+	--halo: #ffe0b8;
+	--shadow: #07020b;
+	--art-shade: #140a1b;
+	--art-text: #fff1dc;
+	--letterbox: #0b0510;
+	--scanline: rgb(20 4 20 / 26%);
+	--font-display: 'Chakra Petch', 'Space Grotesk', system-ui, sans-serif;
+
+	/* A cream ring inside the orange one: reads on plum, on art and on the orange buttons */
+	--focus-ring: 0 0 0 0.4rem #fff1dc, 0 0 0 0.8rem var(--accent), 0 0 5.6rem 0.6rem var(--accent-soft);
+
+	/* The sun low behind every page backdrop (see --backdrop in variables.css) */
+	--backdrop:
+		radial-gradient(ellipse 80% 55% at 50% 118%, rgb(255 138 61 / 22%), transparent 70%),
+		radial-gradient(ellipse 60% 40% at 50% 112%, rgb(255 94 138 / 18%), transparent 70%);
+
+	color-scheme: dark;
+}

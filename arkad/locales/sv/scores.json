@@ -1,0 +1,20 @@
+{
+	"kickerEmpty": "Topplista",
+	"kicker_one": "Topplista · {{count}} rekord",
+	"kicker_other": "Topplista · {{count}} rekord",
+	"newest": "Senaste",
+	"empty": "Inga rekord än — bli först",
+	"emptyBody": "Spela {{game}} och skriv in dina initialer, så står du här.",
+	"hall": {
+		"tile": "Rekordhallen",
+		"kicker": "Bäst i varje spel",
+		"title": "Rekordhallen",
+		"empty": "Inga rekord än — bli först",
+		"emptyBody": "Varje spel får sin etta här så fort någon har satt ett rekord."
+	},
+	"hint": {
+		"pick": "Välj spel",
+		"open": "Öppna spelet",
+		"play": "Spela"
+	}
+}

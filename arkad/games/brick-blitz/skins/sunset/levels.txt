@@ -1,0 +1,176 @@
+; Sunset skin levels (20, like the default): a skin can replace the whole level set (format: src/levels.ts in the game).
+level Sunrise | Soluppgång
+....ccccc....
+..ccbbbbbcc..
+.cbbaaaaabbc.
+cbbaaPaPaabbc
+.............
+fffffffffffff
+eeeeeeeeeeeee
+
+level Palm Beach | Palmstranden
+..dd.....dd..
+.ddddd.ddddd.
+dd..dMd...ddd
+....dMd......
+....dMd....P.
+....dMd......
+ccccccccccccc
+bbbbbbbbbbbbb
+
+level Heatwave | Värmebölja
+a.a.a.a.a.a.a
+.b.b.b.b.b.b.
+c.cXc.c.cXc.c
+.d.d.dPd.d.d.
+e.e.e.e.e.e.e
+.f.f.f.f.f.f.
+
+level Horizon | Horisonten
+HHHHHHHHHHHHH
+aaaaaaaaaaaaa
+bbbbbbPbbbbbb
+MMMM.....MMMM
+ccccccccccccc
+ddXddddddXddd
+
+level Dusk | Skymning
+SSSSSSSSSSSSS
+eeeeeeeeeeeee
+ffffffPffffff
+eeeeeeeeeeeee
+fffXfffffXfff
+M.M.M.M.M.M.M
+
+level Lanterns | Lyktor
+..a...a...a..
+.aHa.aHa.aHa.
+.aaa.aPa.aaa.
+..b...b...b..
+.............
+ccccccccccccc
+ddddXdddXdddd
+
+level Tide Pools | Tidvattengölar
+eee..eee..eee
+eSe..ePe..eSe
+eee..eee..eee
+.............
+..fff...fff..
+..fXf...fXf..
+..fff...fff..
+
+level Coral | Korallrevet
+a...b...c...d
+aa.bb..cc..dd
+aaabbb.cccddd
+.HHH..P..HHH.
+MM.........MM
+eeeeeeeeeeeee
+
+level Sails | Seglen
+......M......
+.....aMb.....
+....aaMbb....
+...aaaMbbb...
+..aaaaMbbbb..
+.aaaaPMbbbbb.
+MMMMM...MMMMM
+
+level Firefly Field | Eldflugeängen
+X.c.X.c.X.c.X
+.c.c.c.c.c.c.
+c.d.d.P.d.d.c
+.d.d.d.d.d.d.
+e.e.e.e.e.e.e
+.X.e.e.e.e.X.
+
+level Boardwalk | Strandpromenaden
+HHHHHHHHHHHHH
+.............
+fffffffffffff
+fMfMfMfMfMfMf
+.............
+eeeeeePeeeeee
+ddddddddddddd
+
+level Sandcastle | Sandslottet
+S.S.S...S.S.S
+SSSSS...SSSSS
+.bbb.....bbb.
+.bPb.ccc.bPb.
+.bbbbcccbbbb.
+.bbbbcXcbbbb.
+MMMM.....MMMM
+
+level Twilight Zigzag | Skymningssick
+aa...........
+.bb..........
+..cc.......ff
+...dd.....ee.
+....ee...dd..
+.....ff.cc...
+......PHb....
+
+level Bonfire | Brasan
+......X......
+.....XfX.....
+....fefef....
+...fededef...
+..fedcPcdef..
+.HHHHHHHHHHH.
+.MMM.....MMM.
+
+level Starboard | Styrbord
+MMMMMMMMMMMM.
+aaaaaaaaaaaa.
+.bbbbbbbbbbbb
+.MMMMMMMMMMMM
+cccccPccccccc
+ddddddddddddd
+
+level Night Market | Nattmarknaden
+a.a.b.b.c.c.d
+HaHbHbHcHcHdH
+a.a.b.b.c.c.d
+.............
+ePeXe.e.eXePe
+fffffffffffff
+
+level Lighthouse | Fyren
+.....SSS.....
+.....SPS.....
+.....aaa.....
+....HbbbH....
+....bbXbb....
+....bbbbb....
+...ccccccc...
+..MMMMMMMMM..
+ddddddddddddd
+
+level Afterglow | Efterglöd
+SSSSSSSSSSSSS
+HHHHHHHHHHHHH
+aaaaaaaaaaaaa
+bbbbXbPbXbbbb
+ccccccccccccc
+M.M.M.M.M.M.M
+
+level Starfall | Stjärnfall
+X...X...X...X
+.a...b...c...
+..d...e...f..
+S..a...b...c.
+.d..PeP..f...
+..HHHHHHHHH..
+.............
+MMMMM...MMMMM
+
+level Midnight | Midnatt
+SSSSSSSSSSSSS
+SHHHHHPHHHHHS
+SHaaaaaaaaaHS
+SHabbbXbbbaHS
+SHabcccccbaHS
+SHabcXPXcbaHS
+MMMMM...MMMMM

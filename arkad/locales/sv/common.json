@@ -1,0 +1,49 @@
+{
+	"nav": {
+		"home": "Hem",
+		"library": "Bibliotek",
+		"search": "Sök",
+		"scores": "Topplistor",
+		"settings": "Inställningar"
+	},
+	"freePlay": "FRITT SPEL",
+	"credits_one": "KREDIT {{count}}",
+	"credits_other": "KREDITER {{count}}",
+	"players_one": "1 spelare",
+	"players_other": "{{range}} spelare",
+	"back": "Tillbaka",
+	"hold": "håll",
+	"caps": {
+		"b1": "1",
+		"b2": "2",
+		"b3": "3",
+		"b4": "4",
+		"start": "START",
+		"coin": "MYNT",
+		"stick": "✥",
+		"page": "⇆"
+	},
+	"badge": {
+		"new": "Ny"
+	},
+	"genre": {
+		"action": "Action",
+		"arcade": "Arkad",
+		"fighting": "Slagsmål",
+		"platformer": "Plattform",
+		"puzzle": "Pussel",
+		"racing": "Racing",
+		"shooter": "Skjutspel",
+		"sports": "Sport",
+		"party": "Party"
+	},
+	"notice": {
+		"insertCoin": "Stoppa i ett mynt",
+		"creditAdded": "Kredit tillagd",
+		"crashed": "Spelet avslutades oväntat",
+		"saved": "Sparat",
+		"loadFailed": "Spelet gick inte att starta"
+	},
+	"catalogFailed": "Hittade inga spel. Kontrollera spelmappen (games/catalog.json).",
+	"open": "Öppna"
+}

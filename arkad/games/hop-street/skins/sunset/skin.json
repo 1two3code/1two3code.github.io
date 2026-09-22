@@ -1,0 +1,71 @@
+{
+  "name": "Dusk Drive",
+  "palette": {
+    "bg": "#1b0f24",
+    "title": "#ffe7c2",
+    "text": "#f3c8a8",
+    "accent": "#ff8a3d",
+    "hud": "#ffe7c2",
+    "hudDim": "#a0708a",
+    "danger": "#ef476f",
+    "timer": "#ffd166",
+    "timerLow": "#ef476f",
+    "panel": "#2a1533",
+    "pavement": "#4a2f45",
+    "pavementLine": "#5e3b57",
+    "road": "#2a1a33",
+    "roadLine": "#ffd166",
+    "grass": "#3d5a3a",
+    "grassDark": "#2c422b",
+    "flower": "#ff8a3d",
+    "water": "#3b1f5c",
+    "waterLight": "#ff8a3d",
+    "bank": "#2c422b",
+    "bankDark": "#1c2b1c",
+    "slot": "#3b1f5c",
+    "slotRim": "#ffd166",
+    "hopper": "#ffd166",
+    "hopperDark": "#b8860b",
+    "hopper2": "#ef476f",
+    "hopper2Dark": "#9e2a47",
+    "carA": "#06d6a0",
+    "carB": "#118ab2",
+    "racer": "#fff3e6",
+    "racerStripe": "#ef476f",
+    "truck": "#ff8a3d",
+    "truckCab": "#c1440e",
+    "bus": "#ef476f",
+    "log": "#a0522d",
+    "logDark": "#5a2d14",
+    "logEnd": "#e0a060",
+    "floater": "#ff9f6e",
+    "floaterDark": "#8a3b20",
+    "floaterShell": "#ffd166",
+    "bonus": "#fff3b0",
+    "bonusGlow": "#ff8a3d",
+    "splat": "#ef476f",
+    "splash": "#ffd6a5",
+    "flash": "#ffd6a5"
+  },
+  "strings": {
+    "en": {
+      "title": "DUSK DRIVE",
+      "tagline": "Hop home before dark. Grab the lanterns on the way.",
+      "dailyStreet": "TONIGHT'S STREET",
+      "streetNames": "Amber,Coral,Ember,Saffron,Marigold,Copper,Honey,Rosewood",
+      "streetPattern": "{no} {name} Boulevard",
+      "cleared": "ALL HOME FOR THE NIGHT!"
+    },
+    "sv": {
+      "title": "SKYMNINGSGATAN",
+      "tagline": "Hoppa hem innan det mörknar. Ta lyktorna på vägen.",
+      "dailyStreet": "KVÄLLENS GATA",
+      "streetNames": "Bärnstens,Korall,Glöd,Saffrans,Ringblomme,Koppar,Honungs,Rosen",
+      "streetPattern": "{name}vägen {no}",
+      "cleared": "ALLA HEMMA I KVÄLL!"
+    }
+  },
+  "textures": {
+    "bonus": "lantern.png"
+  }
+}

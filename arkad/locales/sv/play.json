@@ -1,0 +1,16 @@
+{
+	"exitHint": "Håll 2 för att pausa eller avsluta",
+	"resume": "Fortsätt",
+	"restart": "Börja om",
+	"exit": "Avsluta till menyn",
+	"simulated": "{{title}} är ett installerat spel — simuleras i webbläsaren, tillbaka om några sekunder",
+	"running": "{{title}} körs",
+	"newHighScore": "Nytt rekord! #{{rank}}",
+	"initialsHelp": "Skriv dina initialer",
+	"hint": {
+		"letter": "Bokstav",
+		"next": "Nästa",
+		"previous": "Föregående",
+		"select": "Välj"
+	}
+}

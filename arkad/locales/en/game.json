@@ -1,0 +1,26 @@
+{
+	"play": "Play",
+	"favourite": "Favourite",
+	"unfavourite": "Favourite",
+	"scores": "High scores",
+	"highScores": "High scores",
+	"noScores": "No scores yet — be the first.",
+	"controls": "Controls",
+	"stick": {
+		"none": "No stick",
+		"2way": "2-way stick",
+		"4way": "4-way stick",
+		"8way": "8-way stick"
+	},
+	"simultaneous": "Play together",
+	"alternating": "Take turns",
+	"vertical": "Vertical screen",
+	"played_one": "Played once · {{minutes}} min",
+	"played_other": "Played {{count}} times · {{minutes}} min",
+	"neverPlayed": "Never played",
+	"hint": {
+		"select": "Select",
+		"play": "Play",
+		"favourite": "Favourite"
+	}
+}

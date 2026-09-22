@@ -1,0 +1,122 @@
+{
+  "section": {
+    "label": "Kontroller",
+    "description": "Vilken knapp som är vad, knapparnas färger och anslutna kontrollkort"
+  },
+  "control": {
+    "up": "Upp",
+    "down": "Ner",
+    "left": "Vänster",
+    "right": "Höger",
+    "b1": "Knapp 1",
+    "b2": "Knapp 2",
+    "b3": "Knapp 3",
+    "b4": "Knapp 4",
+    "b5": "Knapp 5",
+    "b6": "Knapp 6",
+    "start": "Start",
+    "coin": "Mynt",
+    "service": "Service"
+  },
+  "player": "Spelare {{n}}",
+  "wizard": {
+    "eyebrow": "Kontrollpanel",
+    "title": "Lär kabinettet känna knapparna",
+    "firstBoot": "Första starten. Tryck på det som efterfrågas, en sak i taget.",
+    "remap": "Tryck på det som efterfrågas, en sak i taget.",
+    "step": "{{current}} / {{total}}",
+    "prompt": {
+      "up": "Tryck spaken UPPÅT",
+      "down": "Tryck spaken NEDÅT",
+      "left": "Tryck spaken åt VÄNSTER",
+      "right": "Tryck spaken åt HÖGER",
+      "b1": "Tryck KNAPP 1",
+      "b2": "Tryck KNAPP 2",
+      "b3": "Tryck KNAPP 3",
+      "b4": "Tryck KNAPP 4",
+      "b5": "Tryck KNAPP 5",
+      "b6": "Tryck KNAPP 6",
+      "start": "Tryck START",
+      "coin": "Tryck MYNT",
+      "service": "Tryck SERVICE"
+    },
+    "where": {
+      "up": "Spaken till vänster på panelen",
+      "down": "Spaken till vänster på panelen",
+      "left": "Spaken till vänster på panelen",
+      "right": "Spaken till vänster på panelen",
+      "b1": "Övre raden, längst till vänster",
+      "b2": "Övre raden, i mitten",
+      "b3": "Övre raden, längst till höger",
+      "b4": "Nedre raden, längst till vänster",
+      "b5": "Nedre raden, i mitten",
+      "b6": "Nedre raden, längst till höger",
+      "start": "Spelarens startknapp",
+      "coin": "Myntknappen eller myntinkastet",
+      "service": "Inne i myntluckan"
+    },
+    "optional": "Finns inte? Vänta, så hoppar vi över den.",
+    "howTo": "Tryck och släpp. Håll inne för att hoppa över.",
+    "release": "Släpp för att välja",
+    "releaseSkip": "Släpp för att hoppa över",
+    "releaseAbort": "Släpp för att avbryta guiden",
+    "saved": "Sparad",
+    "duplicate": "Används redan till {{target}}",
+    "skipped": "Hoppade över",
+    "timeout": "Hoppar över om {{seconds}} s",
+    "unattended": "Ingen tryckte på något, så standardkontrollerna används. Guiden finns i servicemenyn under Kontroller.",
+    "summaryTitle": "Klart. Stämmer det här?",
+    "summaryText": "Oinställda kontroller behåller standardlayouten.",
+    "save": "Spara",
+    "redo": "Gör om",
+    "cancel": "Avbryt",
+    "autosave": "Sparas automatiskt om {{seconds}} s",
+    "notMapped": "–",
+    "source": {
+      "evdev": "Läser kontrollkorten direkt",
+      "browser": "Tangentbord och handkontroller"
+    },
+    "hint": {
+      "select": "Tryck + släpp: välj",
+      "skip": "Hoppa över",
+      "abort": "Avbryt"
+    }
+  },
+  "page": {
+    "panel": "Panelen",
+    "panelDescription": "Så här är knapparna inställda nu",
+    "run": "Kör kontrollguiden",
+    "runDescription": "Tryck på varje riktning och knapp för spelare 1 och 2",
+    "caps": "Knappfärger",
+    "defaultsNote": "Kursiv = standardtangent (MAME-layout) där guiden inte spelat in något",
+    "capsDescription": "Samma färger som de riktiga knapparna, så att tipsen på skärmen stämmer",
+    "capLabel": "Färg på {{control}}",
+    "devices": "Kontrollkort",
+    "devicesBrowser": "Webbläsaren läser tangentbord och handkontroller. På kabinettet läser skalet kontrollkorten direkt.",
+    "noDevices": "Inga kontrollkort hittades",
+    "deviceMapped": "Används",
+    "deviceUnused": "Används inte",
+    "devicePermission": "Saknar behörighet (lägg användaren i gruppen input)",
+    "deviceKind": {
+      "joystick": "Spakkort",
+      "keyboard": "Tangentbordskort",
+      "mouse": "Mus eller trackball",
+      "other": "Enhet"
+    },
+    "reset": "Återställ kontrollerna",
+    "resetDescription": "Tillbaka till standardlayouten och temats färger. Håll knapp 1."
+  },
+  "color": {
+    "theme": "Temat",
+    "red": "Röd",
+    "blue": "Blå",
+    "yellow": "Gul",
+    "green": "Grön",
+    "white": "Vit",
+    "black": "Svart",
+    "orange": "Orange",
+    "purple": "Lila",
+    "pink": "Rosa",
+    "cyan": "Turkos"
+  }
+}

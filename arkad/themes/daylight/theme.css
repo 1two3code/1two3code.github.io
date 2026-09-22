@@ -1,0 +1,52 @@
+/*
+ * Daylight: a light theme for bright rooms (cafés, libraries, a sunny shop window), where a black
+ * screen turns into a mirror. Warm paper surfaces, near-black ink, a deep magenta that still reads as
+ * the Arkad accent, Outfit for titles. Art and running games stay dark: only the chrome turns light.
+ * It exists to prove the tokens cover the whole launcher: nothing in a CSS module assumes dark.
+ */
+:root[data-theme='daylight'] {
+	--bg: #f1ede4;
+	--surface: #f8f5ef;
+	--card: #fff;
+	--card-raised: #fff;
+	--rule: rgb(20 22 31 / 14%);
+	--text: #14161f;
+	--text-dim: #454a5a;
+	--text-faint: #6b6f7e;
+	--accent: #c2185b;
+	--accent-soft: rgb(194 24 91 / 30%);
+	--accent-2: #00707f;
+	--gold: #8f5b00;
+	--silver: #5d6577;
+	--bronze: #9a4f1f;
+	--operator: #9c4f00;
+	--danger: #c0262d;
+	--on-accent: #fff;
+	--on-accent-2: #fff;
+	--on-operator: #fff;
+	--halo: #c2185b;
+	--shadow: #3a3020;
+	--art-shade: #14161f;
+	--art-text: #fff;
+	--letterbox: #000;
+	--scanline: rgb(20 22 31 / 9%);
+
+	/* On light chrome a dark cap needs no rim, a white one does */
+	--cap-edge: rgb(20 22 31 / 30%);
+	--cap-edge-strong: rgb(20 22 31 / 70%);
+
+	/* Paper, not smoke: a title over art gets a light halo, the top bar a solid paper band */
+	--title-shadow: 0 0 3.2rem rgb(241 237 228 / 85%);
+	--topbar-scrim: linear-gradient(to bottom, var(--bg) 55%, transparent);
+	--font-display: 'Outfit', 'Space Grotesk', system-ui, sans-serif;
+
+	/* White inside magenta: the ring reads on paper, on white cards and on dark art alike */
+	--focus-ring: 0 0 0 0.4rem #fff, 0 0 0 0.9rem var(--accent), 0 1.2rem 4rem 0.4rem var(--accent-soft);
+
+	/* Soft daylight falling in from the top left */
+	--backdrop:
+		radial-gradient(ellipse 90% 70% at 0% 0%, rgb(255 255 255 / 70%), transparent 70%),
+		radial-gradient(ellipse 60% 50% at 100% 100%, rgb(0 112 127 / 6%), transparent 70%);
+
+	color-scheme: light;
+}

@@ -1,0 +1,119 @@
+{
+	"title": "Inställningar",
+	"subtitle": "Ändringar sparas direkt",
+	"category": {
+		"display": "Bild",
+		"sound": "Ljud",
+		"language": "Språk",
+		"attract": "Demoläge",
+		"controls": "Kontroller",
+		"about": "Om maskinen"
+	},
+	"categoryDescription": {
+		"display": "Skärmens riktning och utseende",
+		"sound": "Volym och ljudeffekter i menyerna",
+		"language": "Språket i menyerna",
+		"attract": "Det som visas när ingen spelar",
+		"controls": "Testa spaken och alla knappar",
+		"about": "Version och system"
+	},
+	"display": {
+		"rotation": "Skärmrotation",
+		"rotationDescription": "Vrid bilden för en stående skärm",
+		"rotation0": "Liggande",
+		"rotation90": "90°",
+		"rotation180": "180°",
+		"rotation270": "270°",
+		"scanlines": "Bildlinjer",
+		"scanlinesDescription": "Svaga linjer som på en gammal tjock-tv",
+		"reduceMotion": "Minska rörelser",
+		"reduceMotionDescription": "Stäng av animationer och mjuka övergångar",
+		"showClock": "Visa klocka",
+		"showClockDescription": "Klockan uppe till höger i menyn",
+		"theme": "Tema",
+		"themeDescription": "Färger, typsnitt och logga, och spelen som har ett matchande utseende",
+		"effects": "Effekter",
+		"effectsDescription": "Lätt: mindre oskärpa och rörelse, för svagare maskiner",
+		"effects_auto": "Auto",
+		"effectsAutoDetected": "Auto ({{level}})",
+		"effects_full": "Fullt",
+		"effects_lite": "Lätt"
+	},
+	"sound": {
+		"volume": "Volym",
+		"volumeDescription": "Huvudvolym för menyer och spel",
+		"uiSounds": "Menyljud",
+		"uiSoundsDescription": "Klick och pip när du bläddrar",
+		"attractSound": "Ljud i demoläget",
+		"attractSoundDescription": "Spela ljud medan maskinen står och visar spel"
+	},
+	"language": {
+		"label": "Språk",
+		"description": "Används i alla menyer"
+	},
+	"attract": {
+		"enabled": "Demoläge",
+		"enabledDescription": "Visa spelen på skärmen när ingen spelar",
+		"idle": "Starta efter",
+		"idleDescription": "Hur länge maskinen ska stå orörd först",
+		"seconds_one": "{{count}} sekund",
+		"seconds_other": "{{count}} s",
+		"minutes_one": "{{count}} minut",
+		"minutes_other": "{{count}} minuter"
+	},
+	"about": {
+		"cabinet": "Maskinens namn",
+		"version": "Version",
+		"platform": "Plattform",
+		"hostname": "Värdnamn",
+		"games": "Antal spel",
+		"hidden_one": "varav {{count}} dolt",
+		"hidden_other": "varav {{count}} dolda"
+	},
+	"value": {
+		"on": "På",
+		"off": "Av"
+	},
+	"hint": {
+		"choose": "Välj",
+		"open": "Öppna",
+		"change": "Ändra",
+		"categories": "Kategorier",
+		"home": "Hem"
+	},
+	"hold": {
+		"hint": "Bekräfta",
+		"idle": "Håll 1 i 1,5 s",
+		"holding": "Håll kvar …",
+		"done": "Klart"
+	},
+	"tester": {
+		"idle": "Test",
+		"live": "Test pågår",
+		"howToStart": "Tryck 1 för att starta. Då tar testet över alla knappar.",
+		"howToExit": "Tryck på allt som ska fungera. Håll 2 i en sekund för att avsluta.",
+		"hintStart": "Starta test",
+		"hintExit": "Avsluta test",
+		"stick": "Spak",
+		"start": "Start",
+		"coin": "Mynt",
+		"menu": "Meny",
+		"last": "Senast:",
+		"none": "–",
+		"action": {
+			"up": "Spak upp",
+			"down": "Spak ner",
+			"left": "Spak vänster",
+			"right": "Spak höger",
+			"confirm": "Knapp 1",
+			"back": "Knapp 2",
+			"b3": "Knapp 3",
+			"b4": "Knapp 4",
+			"pageLeft": "Knapp 5",
+			"pageRight": "Knapp 6",
+			"start": "Start",
+			"coin": "Mynt",
+			"menu": "Meny"
+		}
+	}
+}

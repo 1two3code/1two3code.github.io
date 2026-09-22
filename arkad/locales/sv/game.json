@@ -1,0 +1,26 @@
+{
+	"play": "Spela",
+	"favourite": "Favorit",
+	"unfavourite": "Favorit",
+	"scores": "Topplista",
+	"highScores": "Topplista",
+	"noScores": "Inga poäng än — bli först.",
+	"controls": "Kontroller",
+	"stick": {
+		"none": "Ingen spak",
+		"2way": "Spak, 2 lägen",
+		"4way": "Spak, 4 lägen",
+		"8way": "Spak, 8 lägen"
+	},
+	"simultaneous": "Spela samtidigt",
+	"alternating": "Turas om",
+	"vertical": "Stående skärm",
+	"played_one": "Spelat en gång · {{minutes}} min",
+	"played_other": "Spelat {{count}} gånger · {{minutes}} min",
+	"neverPlayed": "Aldrig spelat",
+	"hint": {
+		"select": "Välj",
+		"play": "Spela",
+		"favourite": "Favorit"
+	}
+}
